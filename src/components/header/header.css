@@ -34,6 +34,7 @@ header {
     #fbbc05,
     #ea4335
   );
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
