@@ -17,8 +17,8 @@ const data = [
     id: 2,
     image: IMG2,
     title: 'My Portfolio - A Personal Portfolio Site',
-    github: 'https:github.com',
-    demo: 'https://dribbble.com',
+    github: 'https://github.com/salimi-my/my-portfolio',
+    demo: 'https://www.salimi.my',
     tags: ['React', 'EmailJS']
   },
   {
