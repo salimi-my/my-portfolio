@@ -1,10 +1,124 @@
-import React from 'react'
-import './services.css'
+import React from 'react';
+import './services.css';
+import { BiCheck } from 'react-icons/bi';
 
 const Services = () => {
   return (
-    <div>Services</div>
-  )
-}
+    <section id='services'>
+      <h5>What I Offer</h5>
+      <h2>Services</h2>
 
-export default Services
+      <div className='container services__container'>
+        <article className='service'>
+          <div className='service__head'>
+            <h3>SEO Optimization</h3>
+          </div>
+
+          <ul className='service__list'>
+            <li>
+              <BiCheck className='service__list-icon' />
+              <p>Gather relevant keywords.</p>
+            </li>
+            <li>
+              <BiCheck className='service__list-icon' />
+              <p>Optimize images for search.</p>
+            </li>
+            <li>
+              <BiCheck className='service__list-icon' />
+              <p>Optimize meta descriptions.</p>
+            </li>
+            <li>
+              <BiCheck className='service__list-icon' />
+              <p>Speed up web page load.</p>
+            </li>
+            <li>
+              <BiCheck className='service__list-icon' />
+              <p>Optimize page across devices.</p>
+            </li>
+            <li>
+              <BiCheck className='service__list-icon' />
+              <p>Manage broken links.</p>
+            </li>
+          </ul>
+        </article>
+        {/* End of UI/UX */}
+
+        <article className='service'>
+          <div className='service__head'>
+            <h3>Web Development</h3>
+          </div>
+
+          <ul className='service__list'>
+            <li>
+              <BiCheck className='service__list-icon' />
+              <p>Designing user interfaces and navigation menus</p>
+            </li>
+            <li>
+              <BiCheck className='service__list-icon' />
+              <p>Writing and reviewing code for web pages.</p>
+            </li>
+            <li>
+              <BiCheck className='service__list-icon' />
+              <p>Integrating multimedia content onto a site.</p>
+            </li>
+            <li>
+              <BiCheck className='service__list-icon' />
+              <p>Testing web applications.</p>
+            </li>
+            <li>
+              <BiCheck className='service__list-icon' />
+              <p>
+                Troubleshooting problems with performance or user experience.
+              </p>
+            </li>
+            <li>
+              <BiCheck className='service__list-icon' />
+              <p>
+                Collaborating with teams of designers, developers, and clients.
+              </p>
+            </li>
+          </ul>
+        </article>
+        {/* Eend of Web Development */}
+
+        <article className='service'>
+          <div className='service__head'>
+            <h3>Content Creation</h3>
+          </div>
+
+          <ul className='service__list'>
+            <li>
+              <BiCheck className='service__list-icon' />
+              <p>Research industry-related topics.</p>
+            </li>
+            <li>
+              <BiCheck className='service__list-icon' />
+              <p>
+                Prepare well-structured drafts using digital publishing
+                platforms.
+              </p>
+            </li>
+            <li>
+              <BiCheck className='service__list-icon' />
+              <p>
+                Create and distribute marketing copy to advertise company and
+                products.
+              </p>
+            </li>
+            <li>
+              <BiCheck className='service__list-icon' />
+              <p>Identify customers' needs and recommend new topics.</p>
+            </li>
+            <li>
+              <BiCheck className='service__list-icon' />
+              <p>Measure web traffic to content.</p>
+            </li>
+          </ul>
+        </article>
+        {/* End of Content Creation */}
+      </div>
+    </section>
+  );
+};
+
+export default Services;

@@ -1,10 +1,104 @@
-import React from 'react'
-import './experience.css'
+import React from 'react';
+import './experience.css';
+import { BsPatchCheckFill } from 'react-icons/bs';
+
+const data_frontend = [
+  {
+    skill: 'HTML',
+    level: 'Experienced'
+  },
+  {
+    skill: 'CSS',
+    level: 'Intermediate'
+  },
+  {
+    skill: 'JavaScript',
+    level: 'Experienced'
+  },
+  {
+    skill: 'Bootstrap',
+    level: 'Experienced'
+  },
+  {
+    skill: 'Tailwind',
+    level: 'Experienced'
+  },
+  {
+    skill: 'React',
+    level: 'Intermediate'
+  }
+];
+
+const data_backend = [
+  {
+    skill: 'Node JS',
+    level: 'Basic'
+  },
+  {
+    skill: 'MongoDB',
+    level: 'Basic'
+  },
+  {
+    skill: 'PHP',
+    level: 'Experienced'
+  },
+  {
+    skill: 'MySQL',
+    level: 'Experienced'
+  },
+  {
+    skill: 'Codeigniter',
+    level: 'Experienced'
+  },
+  {
+    skill: 'Firebase',
+    level: 'Basic'
+  }
+];
 
 const Experience = () => {
   return (
-    <div>Experience</div>
-  )
-}
+    <section id='experience'>
+      <h5>What Skills I have</h5>
+      <h2>Technical Level</h2>
 
-export default Experience
+      <div className='container experience__container'>
+        <div className='experience__frontend'>
+          <h3>Frontend Development</h3>
+          <div className='experience__content'>
+            {data_frontend.map(({ skill, level }, index) => {
+              return (
+                <article key={index} className='experience__details'>
+                  <BsPatchCheckFill className='experience__details-icon' />
+                  <div className='experience__skill'>
+                    <h4>{skill}</h4>
+                    <small className='text-light'>{level}</small>
+                  </div>
+                </article>
+              );
+            })}
+          </div>
+        </div>
+
+        <div className='experience__backend'>
+          <h3>Backend Development</h3>
+          <div className='experience__content'>
+            {data_backend.map(({ skill, level }, index) => {
+              return (
+                <article key={index} className='experience__details'>
+                  <BsPatchCheckFill className='experience__details-icon' />
+                  <div className='experience__skill'>
+                    <h4>{skill}</h4>
+                    <small className='text-light'>{level}</small>
+                  </div>
+                </article>
+              );
+            })}
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default Experience;
