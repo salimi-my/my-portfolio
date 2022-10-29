@@ -4,6 +4,10 @@ import AVATAR1 from '../../assets/martin-fowler-min.jpg';
 import AVATAR2 from '../../assets/kent-beck-min.jpg';
 import AVATAR3 from '../../assets/chris-pine-min.jpg';
 import AVATAR4 from '../../assets/jason-c-mcdonald-min.jpg';
+import AVATAR1webp from '../../assets/martin-fowler-min.webp';
+import AVATAR2webp from '../../assets/kent-beck-min.webp';
+import AVATAR3webp from '../../assets/chris-pine-min.webp';
+import AVATAR4webp from '../../assets/jason-c-mcdonald-min.webp';
 
 // import Swiper core and required modules
 import { Pagination } from 'swiper';
@@ -16,24 +20,28 @@ import 'swiper/css/pagination';
 const data = [
   {
     avatar: AVATAR1,
+    avatarWebp: AVATAR1webp,
     name: 'Martin Fowler',
     review:
       '“Any fool can write code that a computer can understand. Good programmers write code that humans can understand.”'
   },
   {
     avatar: AVATAR2,
+    avatarWebp: AVATAR2webp,
     name: 'Kent Beck',
     review:
       '“Optimism is an occupational hazard of programming: feedback is the treatment.”'
   },
   {
     avatar: AVATAR3,
+    avatarWebp: AVATAR3webp,
     name: 'Chris Pine',
     review:
       "“Programming isn't about what you know, it's about what you can figure out.”"
   },
   {
     avatar: AVATAR4,
+    avatarWebp: AVATAR4webp,
     name: 'Jason C. McDonald',
     review:
       "“Don't write better error messages, write code that doesn't need them.”"
@@ -56,11 +64,14 @@ const Quotes = () => {
         navigation
         pagination={{ clickable: true }}
       >
-        {data.map(({ avatar, name, review }, index) => {
+        {data.map(({ avatar, avatarWebp, name, review }, index) => {
           return (
             <SwiperSlide key={index} className='quote'>
               <div className='client__avatar'>
-                <img src={avatar} alt={name} />
+                <picture>
+                  <source srcSet={avatarWebp} type='image/webp' />
+                  <img src={avatar} type='image/jpg' alt={name} />
+                </picture>
               </div>
               <h5 className='client__name'>{name}</h5>
               <small className='client__review'>{review}</small>

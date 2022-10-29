@@ -1,6 +1,7 @@
 import React from 'react';
 import './about.css';
-import ME from '../../assets/salimi-bw-background-min.jpg';
+import MEjpg from '../../assets/salimi-bw-background-min.jpg';
+import MEwebp from '../../assets/salimi-bw-background-min.webp';
 import { FaAward } from 'react-icons/fa';
 import { TfiHeadphoneAlt } from 'react-icons/tfi';
 import { VscFolderLibrary } from 'react-icons/vsc';
@@ -14,7 +15,10 @@ const About = () => {
       <div className='container about__container'>
         <div className='about__me'>
           <div className='about__me-image'>
-            <img src={ME} alt='About' />
+            <picture>
+              <source srcSet={MEwebp} type='image/webp' />
+              <img src={MEjpg} type='image/jpg' alt='about' />
+            </picture>
           </div>
         </div>
 

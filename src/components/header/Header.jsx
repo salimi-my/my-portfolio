@@ -1,7 +1,8 @@
 import React from 'react';
 import './header.css';
 import CTA from './CTA';
-import ME from '../../assets/salimi-bw-transparent-min.png';
+import MEpng from '../../assets/salimi-bw-transparent-min.png';
+import MEwebp from '../../assets/salimi-bw-transparent-min.webp';
 import HeaderSocial from './HeaderSocial';
 
 const Header = () => {
@@ -17,7 +18,10 @@ const Header = () => {
         <HeaderSocial />
 
         <div className='me'>
-          <img src={ME} alt='me' />
+          <picture>
+            <source srcSet={MEwebp} type='image/webp' />
+            <img src={MEpng} type='image/png' alt='me' />
+          </picture>
         </div>
 
         <div className='mouse'></div>
