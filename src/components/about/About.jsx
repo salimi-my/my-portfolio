@@ -1,6 +1,6 @@
 import React from 'react';
 import './about.css';
-import ME from '../../assets/salimi-bw-background.jpg';
+import ME from '../../assets/salimi-bw-background-min.jpg';
 import { FaAward } from 'react-icons/fa';
 import { TfiHeadphoneAlt } from 'react-icons/tfi';
 import { VscFolderLibrary } from 'react-icons/vsc';

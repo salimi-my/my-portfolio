@@ -1,8 +1,8 @@
 import React from 'react';
 import './portfolio.css';
-import IMG1 from '../../assets/facebook-clone.png';
-import IMG2 from '../../assets/my-portfolio.png';
-import IMG3 from '../../assets/protected-share.png';
+import IMG1 from '../../assets/facebook-clone-min.png';
+import IMG2 from '../../assets/my-portfolio-min.png';
+import IMG3 from '../../assets/protected-share-min.png';
 
 const data = [
   {

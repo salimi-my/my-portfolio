@@ -1,9 +1,9 @@
 import React from 'react';
 import './quotes.css';
-import AVATAR1 from '../../assets/martin-fowler.jpg';
-import AVATAR2 from '../../assets/kent-beck.jpg';
-import AVATAR3 from '../../assets/chris-pine.jpg';
-import AVATAR4 from '../../assets/jason-c-mcdonald.jpg';
+import AVATAR1 from '../../assets/martin-fowler-min.jpg';
+import AVATAR2 from '../../assets/kent-beck-min.jpg';
+import AVATAR3 from '../../assets/chris-pine-min.jpg';
+import AVATAR4 from '../../assets/jason-c-mcdonald-min.jpg';
 
 // import Swiper core and required modules
 import { Pagination } from 'swiper';

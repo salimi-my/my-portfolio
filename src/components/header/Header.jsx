@@ -1,7 +1,7 @@
 import React from 'react';
 import './header.css';
 import CTA from './CTA';
-import ME from '../../assets/salimi-bw-transparent.png';
+import ME from '../../assets/salimi-bw-transparent-min.png';
 import HeaderSocial from './HeaderSocial';
 
 const Header = () => {
