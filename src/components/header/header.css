@@ -141,7 +141,7 @@ header {
   color: var(--color-primary-variant);
 }
 
- {
+.mouse {
   width: 1rem;
   height: 2rem;
   border: 1.5px solid #333;
