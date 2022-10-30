@@ -14,6 +14,7 @@ const Nav = () => {
     <nav>
       <a
         href='#home'
+        aria-label='Home'
         onClick={() => setActiveNav('#home')}
         className={activeNav === '#home' ? 'active' : ''}
       >
@@ -21,6 +22,7 @@ const Nav = () => {
       </a>
       <a
         href='#about'
+        aria-label='About'
         onClick={() => setActiveNav('#about')}
         className={activeNav === '#about' ? 'active' : ''}
       >
@@ -28,6 +30,7 @@ const Nav = () => {
       </a>
       <a
         href='#experience'
+        aria-label='Experience'
         onClick={() => setActiveNav('#experience')}
         className={activeNav === '#experience' ? 'active' : ''}
       >
@@ -35,6 +38,7 @@ const Nav = () => {
       </a>
       <a
         href='#services'
+        aria-label='Services'
         onClick={() => setActiveNav('#services')}
         className={activeNav === '#services' ? 'active' : ''}
       >
@@ -43,6 +47,7 @@ const Nav = () => {
       <a
         id='menu-qualification'
         href='#qualification'
+        aria-label='Qualification'
         onClick={() => setActiveNav('#qualification')}
         className={activeNav === '#qualification' ? 'active' : ''}
       >
@@ -50,6 +55,7 @@ const Nav = () => {
       </a>
       <a
         href='#contact'
+        aria-label='Contact'
         onClick={() => setActiveNav('#contact')}
         className={activeNav === '#contact' ? 'active' : ''}
       >

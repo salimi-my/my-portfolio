@@ -39,13 +39,13 @@ const Footer = () => {
       </ul>
 
       <div className='footer__socials'>
-        <a href='https://www.facebook.com/mysalimi'>
+        <a href='https://www.facebook.com/mysalimi' aria-label='Facebook'>
           <FaFacebookF />
         </a>
-        <a href='https://www.instagram.com/salimi.my/'>
+        <a href='https://www.instagram.com/salimi.my/' aria-label='Instagram'>
           <FiInstagram />
         </a>
-        <a href='https://twitter.com/mysalimi'>
+        <a href='https://twitter.com/mysalimi' aria-label='Twitter'>
           <IoLogoTwitter />
         </a>
       </div>

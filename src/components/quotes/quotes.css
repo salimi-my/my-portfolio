@@ -12,6 +12,10 @@
   border: 0.3rem solid var(--color-white);
 }
 
+.client__avatar img {
+  height: auto;
+}
+
 .client__name {
   color: var(--color-white);
 }

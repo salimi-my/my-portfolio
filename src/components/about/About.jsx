@@ -1,7 +1,11 @@
 import React from 'react';
 import './about.css';
-import MEjpg from '../../assets/salimi-bw-background-min.jpg';
-import MEwebp from '../../assets/salimi-bw-background-min.webp';
+import MeJpg1000 from '../../assets/salimi-bw-background-1000.jpg';
+import MeWebp1000 from '../../assets/salimi-bw-background-1000.webp';
+import MeJpg440 from '../../assets/salimi-bw-background-440.jpg';
+import MeWebp440 from '../../assets/salimi-bw-background-440.webp';
+import MeJpg250 from '../../assets/salimi-bw-background-250.jpg';
+import MeWebp250 from '../../assets/salimi-bw-background-250.webp';
 import { FaAward } from 'react-icons/fa';
 import { TfiHeadphoneAlt } from 'react-icons/tfi';
 import { VscFolderLibrary } from 'react-icons/vsc';
@@ -16,8 +20,55 @@ const About = () => {
         <div className='about__me'>
           <div className='about__me-image'>
             <picture>
-              <source srcSet={MEwebp} type='image/webp' />
-              <img src={MEjpg} type='image/jpg' alt='about' />
+              <source
+                media='(max-width: 600px)'
+                srcSet={MeWebp250}
+                type='image/webp'
+                width='250'
+                height='250'
+              />
+              <source
+                media='(max-width: 1024px)'
+                srcSet={MeWebp440}
+                type='image/webp'
+                width='440'
+                height='440'
+              />
+              <source
+                media='(min-width: 1025px)'
+                srcSet={MeWebp1000}
+                type='image/webp'
+                width='1000'
+                height='1000'
+              />
+              <source
+                media='(max-width: 600px)'
+                srcSet={MeJpg250}
+                type='image/jpeg'
+                width='250'
+                height='250'
+              />
+              <source
+                media='(max-width: 1024px)'
+                srcSet={MeJpg440}
+                type='image/jpeg'
+                width='440'
+                height='440'
+              />
+              <source
+                media='(min-width: 1025px)'
+                srcSet={MeJpg1000}
+                type='image/jpeg'
+                width='1000'
+                height='1000'
+              />
+              <img
+                src={MeJpg1000}
+                type='image/jpg'
+                alt='about'
+                width='1000'
+                height='1000'
+              />
             </picture>
           </div>
         </div>

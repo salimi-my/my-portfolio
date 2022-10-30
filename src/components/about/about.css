@@ -25,6 +25,10 @@
   transition: var(--transition);
 }
 
+.about__me-image img {
+  height: auto;
+}
+
 .about__me-image:hover {
   transform: rotate(0);
 }

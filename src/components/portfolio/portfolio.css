@@ -22,6 +22,10 @@
   overflow: hidden;
 }
 
+.portfolio__item-image img {
+  height: auto;
+}
+
 .portfolio__item h3 {
   margin: 1.2rem 0 1.2rem;
   color: var(--color-white);

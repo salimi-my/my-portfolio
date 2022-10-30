@@ -50,7 +50,13 @@ const Portfolio = () => {
               <div className='portfolio__item-image'>
                 <picture>
                   <source srcSet={imageWebp} type='image/webp' />
-                  <img src={image} type='image/jpg' alt={title} />
+                  <img
+                    src={image}
+                    type='image/jpg'
+                    width='600'
+                    height='420'
+                    alt={title}
+                  />
                 </picture>
               </div>
               <h3>{title}</h3>

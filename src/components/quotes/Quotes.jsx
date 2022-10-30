@@ -70,7 +70,13 @@ const Quotes = () => {
               <div className='client__avatar'>
                 <picture>
                   <source srcSet={avatarWebp} type='image/webp' />
-                  <img src={avatar} type='image/jpg' alt={name} />
+                  <img
+                    src={avatar}
+                    type='image/jpg'
+                    width='150'
+                    height='150'
+                    alt={name}
+                  />
                 </picture>
               </div>
               <h5 className='client__name'>{name}</h5>
