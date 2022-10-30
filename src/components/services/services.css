@@ -45,7 +45,8 @@
   color: var(--color-white);
   margin-top: 2px;
   font-size: 1rem;
-  min-width: max-content;
+  min-width: 1rem;
+  max-width: 1rem;
 }
 
 .service__list:hover .service__list-icon {
