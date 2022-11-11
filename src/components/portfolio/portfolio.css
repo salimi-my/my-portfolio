@@ -1,6 +1,10 @@
 .portfolio__container {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  /* grid-template-columns: repeat(3, 1fr); */
+  /* start temp */
+  max-width: 900px;
+  grid-template-columns: repeat(2, 1fr);
+  /* end temp */
   gap: 2.5rem;
 }
 

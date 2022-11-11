@@ -2,10 +2,12 @@ import React from 'react';
 import './portfolio.css';
 import IMG1 from '../../assets/facebook-clone-min.png';
 import IMG2 from '../../assets/my-portfolio-min.png';
-import IMG3 from '../../assets/protected-share-min.png';
+import IMG3 from '../../assets/instagram-clone-min.png';
+import IMG4 from '../../assets/protected-share-min.png';
 import IMG1webp from '../../assets/facebook-clone-min.webp';
 import IMG2webp from '../../assets/my-portfolio-min.webp';
-import IMG3webp from '../../assets/protected-share-min.webp';
+import IMG3webp from '../../assets/instagram-clone-min.webp';
+import IMG4webp from '../../assets/protected-share-min.webp';
 
 const data = [
   {
@@ -30,6 +32,15 @@ const data = [
     id: 3,
     image: IMG3,
     imageWebp: IMG3webp,
+    title: 'Instakilo - An Instagram Clone App',
+    github: 'https://github.com/salimi-my/instagram-clone',
+    demo: 'https://instakilo.salimi.my',
+    tags: ['NextJS', 'Tailwind', 'Firebase']
+  },
+  {
+    id: 4,
+    image: IMG4,
+    imageWebp: IMG4webp,
     title: 'Protected Share - File Sharing',
     github: 'https://github.com/salimi-my/protected-share',
     demo: 'https://share.salimi.my',
