@@ -4,10 +4,12 @@ import IMG1 from '../../assets/facebook-clone-min.png';
 import IMG2 from '../../assets/my-portfolio-min.png';
 import IMG3 from '../../assets/instagram-clone-min.png';
 import IMG4 from '../../assets/protected-share-min.png';
+import IMG5 from '../../assets/chatters-min.png';
 import IMG1webp from '../../assets/facebook-clone-min.webp';
 import IMG2webp from '../../assets/my-portfolio-min.webp';
 import IMG3webp from '../../assets/instagram-clone-min.webp';
 import IMG4webp from '../../assets/protected-share-min.webp';
+import IMG5webp from '../../assets/chatters-min.webp';
 
 const data = [
   {
@@ -45,6 +47,15 @@ const data = [
     github: 'https://github.com/salimi-my/protected-share',
     demo: 'https://share.salimi.my',
     tags: ['Codeigniter', 'Bootstrap', 'MySQL']
+  },
+  {
+    id: 5,
+    image: IMG5,
+    imageWebp: IMG5webp,
+    title: 'Chatters - A Simple Chat App',
+    github: 'https://github.com/salimi-my/chatters',
+    demo: 'https://chatters.salimi.my',
+    tags: ['NextJS', 'TypeScript', 'Upstash']
   }
 ];
 
