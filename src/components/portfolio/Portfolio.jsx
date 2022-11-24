@@ -5,11 +5,13 @@ import IMG2 from '../../assets/my-portfolio-min.png';
 import IMG3 from '../../assets/instagram-clone-min.png';
 import IMG4 from '../../assets/protected-share-min.png';
 import IMG5 from '../../assets/chatters-min.png';
+import IMG6 from '../../assets/travel-map-min.png';
 import IMG1webp from '../../assets/facebook-clone-min.webp';
 import IMG2webp from '../../assets/my-portfolio-min.webp';
 import IMG3webp from '../../assets/instagram-clone-min.webp';
 import IMG4webp from '../../assets/protected-share-min.webp';
 import IMG5webp from '../../assets/chatters-min.webp';
+import IMG6webp from '../../assets/travel-map-min.webp';
 
 const data = [
   {
@@ -56,6 +58,15 @@ const data = [
     github: 'https://github.com/salimi-my/chatters',
     demo: 'https://chatters.salimi.my',
     tags: ['NextJS', 'TypeScript', 'Upstash']
+  },
+  {
+    id: 6,
+    image: IMG6,
+    imageWebp: IMG6webp,
+    title: 'Travel Map - A Simple Map App',
+    github: 'https://github.com/salimi-my/travel-map',
+    demo: 'https://travel.salimi.my',
+    tags: ['MERN', 'Mapbox', 'JWT']
   }
 ];
 
