@@ -18,6 +18,9 @@
 .env.test.local
 .env.production.local
 index.html.copy
+.htaccess
+google4f0c96db15a5a22e.html
+404.html
 
 npm-debug.log*
 yarn-debug.log*
