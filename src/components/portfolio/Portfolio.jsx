@@ -45,7 +45,7 @@ const data = [
     id: 4,
     image: IMG4,
     imageWebp: IMG4webp,
-    title: 'Protected Share - File Sharing',
+    title: 'Protected Share - File Sharing App',
     github: 'https://github.com/salimi-my/protected-share',
     demo: 'https://share.salimi.my',
     tags: ['Codeigniter', 'Bootstrap', 'MySQL']

@@ -3,11 +3,15 @@ import './switch.css';
 import { SwitchContext } from '../../contexts/SwitchContext';
 
 function Switch() {
-  const { darkMode, setDarkMode } = useContext(SwitchContext);
+  const { darkMode, setDarkMode, myStorage } = useContext(SwitchContext);
   return (
     <div className='switch'>
       <input
-        onClick={() => setDarkMode(!darkMode)}
+        onChange={() => {
+          setDarkMode(!darkMode);
+          myStorage.setItem('darkMode', !darkMode);
+        }}
+        checked={darkMode}
         type='checkbox'
         id='toggle_checkbox'
       />
