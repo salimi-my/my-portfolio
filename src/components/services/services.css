@@ -14,8 +14,11 @@
 
 .service:hover {
   background: transparent;
-  border-color: var(--color-primary-variant);
   cursor: default;
+}
+
+.main-content:not(.bg-dark) .bg-dark .service:hover {
+  border-color: var(--color-primary-variant);
 }
 
 .service__head {
@@ -49,7 +52,7 @@
   max-width: 1rem;
 }
 
-.service__list:hover .service__list-icon {
+.main-content:not(.bg-dark) .service__list:hover .service__list-icon {
   color: var(--color-primary);
 }
 
@@ -58,7 +61,7 @@
   color: var(--color-white);
 }
 
-.service__list:hover p {
+.main-content:not(.bg-dark) .service__list:hover p {
   color: var(--color-primary);
 }
 

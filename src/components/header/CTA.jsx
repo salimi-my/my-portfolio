@@ -8,7 +8,7 @@ const CTA = () => {
         href='https://share.salimi.my/share/file/7cbb3d49585ebfe510f3787c6e61a1cf'
         target='_blank'
         rel='noreferrer'
-        className='btn cta-icon'
+        className='btn cta-icon dl'
       >
         Download CV
       </a>

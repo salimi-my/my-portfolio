@@ -12,6 +12,9 @@
   background: transparent;
   border-color: var(--color-primary-variant);
   cursor: default;
+}
+
+.main-content:not(.bg-dark) .qualification__container:hover {
   color: var(--color-primary);
 }
 
@@ -34,12 +37,14 @@
   border: 1px solid var(--color-light-variant);
 }
 
-.qualification__container:hover .qualification__button {
+.main-content:not(.bg-dark)
+  .qualification__container:hover
+  .qualification__button {
   color: var(--color-light);
   border: 1px solid var(--color-light);
 }
 
-.qualification__button:hover {
+.main-content:not(.bg-dark) .qualification__button:hover {
   color: var(--color-primary);
 }
 
@@ -53,13 +58,17 @@
   background: var(--color-white);
 }
 
-.qualification__container:hover .qualification__active {
+.main-content:not(.bg-dark)
+  .qualification__container:hover
+  .qualification__active {
   color: var(--color-white);
   border: 1px solid var(--color-primary);
   background: var(--color-primary);
 }
 
-.qualification__container:hover .qualification__active:hover {
+.main-content:not(.bg-dark)
+  .qualification__container:hover
+  .qualification__active:hover {
   color: var(--color-white);
 }
 
@@ -136,7 +145,11 @@
   transform: translate(6px, -7px);
 }
 
-.qualification__container:hover .qualification__rounder,
-.qualification__container:hover .qualification__line {
+.main-content:not(.bg-dark)
+  .qualification__container:hover
+  .qualification__rounder,
+.main-content:not(.bg-dark)
+  .qualification__container:hover
+  .qualification__line {
   background-color: var(--color-primary);
 }

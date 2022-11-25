@@ -2,10 +2,6 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   justify-content: center;
-  /* start temp */
-  /* max-width: 900px;
-  grid-template-columns: repeat(2, 1fr); */
-  /* end temp */
   gap: 2.5rem;
 }
 
@@ -22,6 +18,11 @@
   background: var(--color-primary-variant);
 }
 
+.main-content.bg-dark .portfolio__item:hover {
+  border-color: var(--color-bg-variant);
+  background: transparent;
+}
+
 .portfolio__item-image {
   border-radius: 1.5rem;
   overflow: hidden;
@@ -34,10 +35,6 @@
 .portfolio__item h3 {
   margin: 1.2rem 0 1.2rem;
   color: var(--color-white);
-}
-
-.portfolio__item:hover h3 {
-  color: var(--color-bg-variant);
 }
 
 .portfolio__tag {

@@ -24,7 +24,7 @@
   color: var(--color-white);
 }
 
-.experience__container > div:hover h3 {
+.main-content:not(.bg-dark) .experience__container > div:hover h3 {
   color: var(--color-primary);
 }
 
@@ -44,7 +44,10 @@
   color: var(--color-white);
 }
 
-.experience__container > div:hover .experience__details-icon {
+.main-content:not(.bg-dark)
+  .experience__container
+  > div:hover
+  .experience__details-icon {
   color: var(--color-primary);
 }
 
@@ -52,7 +55,11 @@
   color: var(--color-white);
 }
 
-.experience__container > div:hover .experience__skill h4 {
+.main-content:not(.bg-dark)
+  .experience__container
+  > div:hover
+  .experience__skill
+  h4 {
   color: var(--color-primary);
 }
 
@@ -60,7 +67,11 @@
   color: var(--color-light-variant);
 }
 
-.experience__container > div:hover .experience__skill small {
+.main-content:not(.bg-dark)
+  .experience__container
+  > div:hover
+  .experience__skill
+  small {
   color: var(--color-light);
 }
 

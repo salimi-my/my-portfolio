@@ -31,7 +31,7 @@
   color: var(--color-white);
 }
 
-.contact__option:hover .contact__option-icon {
+.main-content:not(.bg-dark) .contact__option:hover .contact__option-icon {
   color: var(--color-primary);
 }
 
@@ -39,7 +39,7 @@
   color: var(--color-white);
 }
 
-.contact__option:hover h4 {
+.main-content:not(.bg-dark) .contact__option:hover h4 {
   color: var(--color-primary);
 }
 
@@ -47,7 +47,7 @@
   color: var(--color-light-variant);
 }
 
-.contact__option:hover h5 {
+.main-content:not(.bg-dark) .contact__option:hover h5 {
   color: var(--color-light);
 }
 
@@ -58,12 +58,18 @@
   color: var(--color-light-variant);
 }
 
-.contact__option:hover a {
+.main-content:not(.bg-dark) .contact__option:hover a {
   color: var(--color-light);
 }
 
-.contact__option a:hover {
+.main-content:not(.bg-dark) .contact__option a:hover {
   color: var(--color-light-white);
+  font-weight: bold;
+}
+
+.bg-dark .contact__option a:hover {
+  color: var(--color-white);
+  font-weight: bolder;
 }
 
 /* ========== FORM ========== */
@@ -90,6 +96,15 @@ textarea {
   border: 2px solid var(--color-primary-variant);
   resize: none;
   color: var(--color-primary);
+}
+
+textarea {
+  font-size: 13.3333px !important;
+}
+
+.main-content.bg-dark input,
+.main-content.bg-dark textarea {
+  color: var(--color-white);
 }
 
 /* ========== MEDIA QUERIES (MEDIUM DEVICES) ========== */

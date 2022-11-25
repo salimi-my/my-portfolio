@@ -19,6 +19,9 @@
   --color-light: rgba(0, 0, 0, 0.6);
   --color-light-variant: rgba(255, 255, 255, 0.5);
 
+  --color-light-mode: #ffffff;
+  --color-dark-mode: #111111;
+
   --transition: all 400ms ease;
 
   --container-width-lg: 75%;
@@ -30,19 +33,16 @@ html {
   scroll-behavior: smooth;
 }
 
-/* body {
-  font-family: 'Poppins', sans-serif;
-  background: var(--color-bg);
-  color: var(--color-white);
-  line-height: 1.7;
-  background-image: url(../src/assets/bg-texture.png);
-} */
-
 body {
   font-family: 'Poppins', sans-serif;
   background: var(--color-white);
   color: var(--color-black);
   line-height: 1.7;
+}
+
+textarea {
+  font-family: inherit;
+  font-size: inherit;
 }
 
 /* ========== SCROLLBAR STYLES ========== */
@@ -109,6 +109,10 @@ h5 {
 h1 {
   font-size: 2.5rem;
   color: var(--color-primary);
+}
+
+.bg-dark h5 {
+  color: var(--color-white);
 }
 
 section {

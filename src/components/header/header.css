@@ -72,6 +72,15 @@ header {
   gap: 0.5rem;
 }
 
+.bg-dark .btn.cta-icon.dl {
+  border: 1px solid var(--color-white);
+  color: var(--color-white);
+}
+
+.bg-dark .btn.cta-icon.dl:hover {
+  color: var(--color-black);
+}
+
 /* ========== HEADER SOCIALS ========== */
 .header__socials {
   display: flex;
@@ -81,12 +90,20 @@ header {
   position: absolute;
   left: 0;
   bottom: 2.5rem;
-  color: var(--color-primary);
   font-size: 1.1rem;
+  color: var(--color-primary);
 }
 
 .header__socials a:hover {
   color: var(--color-primary-variant);
+}
+
+.main-content.bg-dark .header__socials a {
+  color: var(--color-white);
+}
+
+.main-content.bg-dark .header__socials a:hover {
+  color: var(--color-primary);
 }
 
 .header__socials::after {
@@ -94,6 +111,10 @@ header {
   width: 1px;
   height: 2rem;
   background: var(--color-primary);
+}
+
+.main-content.bg-dark .header__socials::after {
+  background: var(--color-white);
 }
 
 /* ========== ME ========== */
@@ -142,10 +163,18 @@ header {
   color: var(--color-primary-variant);
 }
 
+.main-content.bg-dark .scroll__down {
+  color: var(--color-white);
+}
+
+.main-content.bg-dark .scroll__down:hover {
+  color: var(--color-primary);
+}
+
 .mouse {
   width: 1rem;
   height: 2rem;
-  border: 1.5px solid #333;
+  border: 1.5px solid var(--color-primary);
   border-radius: 60px;
   position: absolute;
   right: 0rem;
@@ -160,11 +189,19 @@ header {
   top: 4px;
   left: 50%;
   transform: translateX(-50%);
-  background-color: #333;
+  background-color: var(--color-primary);
   border-radius: 50%;
   opacity: 1;
   animation: wheel 2s infinite;
   -webkit-animation: wheel 2s infinite;
+}
+
+.main-content.bg-dark .mouse {
+  border-color: var(--color-white);
+}
+
+.main-content.bg-dark .mouse::before {
+  background-color: var(--color-white);
 }
 
 @keyframes wheel {
