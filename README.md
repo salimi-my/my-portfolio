@@ -6,6 +6,7 @@ This is a simple personal portfolio site created using React.
 
 - A simple one page site
 - Created using React
+- Light & Dark mode
 - Send messages using EmailJS
 
 ## Tech/framework used
