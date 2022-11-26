@@ -26,8 +26,6 @@ function Switch() {
         type='dark'
         effect='solid'
         className='tooltip-mode'
-        // backgroundColor='rgba(0, 0, 0, 0.3)'
-        // arrowColor='rgba(0, 0, 0, 0)'
       >
         Switch Theme
       </ReactTooltip>
