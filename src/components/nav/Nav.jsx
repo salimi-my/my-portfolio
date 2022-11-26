@@ -7,12 +7,15 @@ import { BiTask } from 'react-icons/bi';
 import { SlGraduation } from 'react-icons/sl';
 import { BsChatDots } from 'react-icons/bs';
 import { useState } from 'react';
+import ReactTooltip from 'react-tooltip';
 
 const Nav = () => {
   const [activeNav, setActiveNav] = useState('#home');
   return (
     <nav>
       <a
+        data-tip
+        data-for='homeBtn'
         href='#home'
         aria-label='Home'
         onClick={() => setActiveNav('#home')}
@@ -21,6 +24,8 @@ const Nav = () => {
         <AiOutlineHome />
       </a>
       <a
+        data-tip
+        data-for='aboutBtn'
         href='#about'
         aria-label='About'
         onClick={() => setActiveNav('#about')}
@@ -29,6 +34,8 @@ const Nav = () => {
         <AiOutlineUser />
       </a>
       <a
+        data-tip
+        data-for='experienceBtn'
         href='#experience'
         aria-label='Experience'
         onClick={() => setActiveNav('#experience')}
@@ -37,6 +44,8 @@ const Nav = () => {
         <BiBook />
       </a>
       <a
+        data-tip
+        data-for='servicesBtn'
         href='#services'
         aria-label='Services'
         onClick={() => setActiveNav('#services')}
@@ -45,6 +54,8 @@ const Nav = () => {
         <BiTask />
       </a>
       <a
+        data-tip
+        data-for='qualificationBtn'
         id='menu-qualification'
         href='#qualification'
         aria-label='Qualification'
@@ -54,6 +65,8 @@ const Nav = () => {
         <SlGraduation />
       </a>
       <a
+        data-tip
+        data-for='contactBtn'
         href='#contact'
         aria-label='Contact'
         onClick={() => setActiveNav('#contact')}
@@ -61,6 +74,73 @@ const Nav = () => {
       >
         <BsChatDots />
       </a>
+
+      <ReactTooltip
+        id='homeBtn'
+        place='top'
+        type='dark'
+        effect='solid'
+        className='tooltip'
+        backgroundColor='rgba(0, 0, 0, 0.3)'
+        arrowColor='rgba(0, 0, 0, 0)'
+      >
+        Home
+      </ReactTooltip>
+      <ReactTooltip
+        id='aboutBtn'
+        place='top'
+        type='dark'
+        effect='solid'
+        className='tooltip'
+        backgroundColor='rgba(0, 0, 0, 0.3)'
+        arrowColor='rgba(0, 0, 0, 0)'
+      >
+        About
+      </ReactTooltip>
+      <ReactTooltip
+        id='experienceBtn'
+        place='top'
+        type='dark'
+        effect='solid'
+        className='tooltip'
+        backgroundColor='rgba(0, 0, 0, 0.3)'
+        arrowColor='rgba(0, 0, 0, 0)'
+      >
+        Experience
+      </ReactTooltip>
+      <ReactTooltip
+        id='servicesBtn'
+        place='top'
+        type='dark'
+        effect='solid'
+        className='tooltip'
+        backgroundColor='rgba(0, 0, 0, 0.3)'
+        arrowColor='rgba(0, 0, 0, 0)'
+      >
+        Services
+      </ReactTooltip>
+      <ReactTooltip
+        id='qualificationBtn'
+        place='top'
+        type='dark'
+        effect='solid'
+        className='tooltip'
+        backgroundColor='rgba(0, 0, 0, 0.3)'
+        arrowColor='rgba(0, 0, 0, 0)'
+      >
+        Qualification
+      </ReactTooltip>
+      <ReactTooltip
+        id='contactBtn'
+        place='top'
+        type='dark'
+        effect='solid'
+        className='tooltip'
+        backgroundColor='rgba(0, 0, 0, 0.3)'
+        arrowColor='rgba(0, 0, 0, 0)'
+      >
+        Contact
+      </ReactTooltip>
     </nav>
   );
 };
