@@ -30,7 +30,7 @@ const data = [
     title: 'My Portfolio - A Personal Portfolio Site',
     github: 'https://github.com/salimi-my/my-portfolio',
     demo: 'https://www.salimi.my',
-    tags: ['React', 'EmailJS']
+    tags: ['ReactJS', 'EmailJS']
   },
   {
     id: 3,
@@ -66,7 +66,7 @@ const data = [
     title: 'Travel Map - A Simple Map App',
     github: 'https://github.com/salimi-my/travel-map',
     demo: 'https://travel.salimi.my',
-    tags: ['MERN', 'Mapbox', 'JWT']
+    tags: ['MERN Stack', 'Mapbox', 'JWT']
   }
 ];
 
