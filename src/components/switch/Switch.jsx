@@ -5,28 +5,17 @@ import { SwitchContext } from '../../contexts/SwitchContext';
 function Switch() {
   const { darkMode, setDarkMode, myStorage } = useContext(SwitchContext);
   return (
-    <div className='switch'>
+    <div className='wrapper'>
       <input
         onChange={() => {
           setDarkMode(!darkMode);
           myStorage.setItem('darkMode', !darkMode);
         }}
-        checked={darkMode}
+        checked={!darkMode}
         type='checkbox'
-        id='toggle_checkbox'
+        name='checkbox'
+        className='switch'
       />
-
-      <label htmlFor='toggle_checkbox'>
-        <div id='star'>
-          <div className='star' id='star-1'>
-            ★
-          </div>
-          <div className='star' id='star-2'>
-            ★
-          </div>
-        </div>
-        <div id='moon'></div>
-      </label>
     </div>
   );
 }
