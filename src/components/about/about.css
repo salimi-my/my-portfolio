@@ -64,12 +64,12 @@
   color: var(--color-primary);
 }
 
-.about__card h5 {
+.about__card h3 {
   font-size: 0.95rem;
   color: var(--color-white);
 }
 
-.main-content:not(.bg-dark) .about__card:hover h5 {
+.main-content:not(.bg-dark) .about__card:hover h3 {
   color: var(--color-primary);
 }
 

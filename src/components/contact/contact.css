@@ -35,19 +35,21 @@
   color: var(--color-primary);
 }
 
-.contact__option h4 {
+.contact__option h3 {
+  font-size: 1rem;
   color: var(--color-white);
 }
 
-.main-content:not(.bg-dark) .contact__option:hover h4 {
+.main-content:not(.bg-dark) .contact__option:hover h3 {
   color: var(--color-primary);
 }
 
-.contact__option h5 {
+.contact__option h4 {
+  font-size: 0.83rem;
   color: var(--color-light-variant);
 }
 
-.main-content:not(.bg-dark) .contact__option:hover h5 {
+.main-content:not(.bg-dark) .contact__option:hover h4 {
   color: var(--color-light);
 }
 

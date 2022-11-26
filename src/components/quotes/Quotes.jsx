@@ -51,12 +51,11 @@ const data = [
 const Quotes = () => {
   return (
     <section id='quotes'>
-      <h5>Wise words</h5>
-      <h2>Quotes</h2>
+      <h1 className='small-title'>Wise words</h1>
+      <h2 className='medium-title'>Quotes</h2>
 
       <Swiper
         className='container quotes__container'
-        // install Swiper modules
         modules={[Pagination]}
         spaceBetween={40}
         loop={true}
@@ -79,7 +78,7 @@ const Quotes = () => {
                   />
                 </picture>
               </div>
-              <h5 className='client__name'>{name}</h5>
+              <h3 className='client__name'>{name}</h3>
               <small className='client__review'>{review}</small>
             </SwiperSlide>
           );

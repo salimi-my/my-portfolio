@@ -27,6 +27,7 @@ header {
 }
 
 .text-gradient {
+  font-size: 1.17em;
   background: -webkit-linear-gradient(
     -60deg,
     #4285f4,

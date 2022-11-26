@@ -17,6 +17,7 @@
 }
 
 .client__name {
+  font-size: 0.83rem;
   color: var(--color-white);
 }
 

@@ -13,8 +13,8 @@ const Qualification = () => {
 
   return (
     <section id='qualification' className='qualification section'>
-      <h5>My Personal Journey</h5>
-      <h2>Qualification</h2>
+      <h1 className='small-title'>My Personal Journey</h1>
+      <h2 className='medium-title'>Qualification</h2>
 
       <div className='container qualification__container'>
         <div className='qualification__tabs'>

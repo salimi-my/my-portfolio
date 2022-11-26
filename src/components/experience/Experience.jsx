@@ -59,8 +59,8 @@ const data_backend = [
 const Experience = () => {
   return (
     <section id='experience'>
-      <h5>What Skills I have</h5>
-      <h2>Technical Level</h2>
+      <h1 className='small-title'>What Skills I have</h1>
+      <h2 className='medium-title'>Technical Level</h2>
 
       <div className='container experience__container'>
         <div className='experience__frontend'>

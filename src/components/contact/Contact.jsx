@@ -40,15 +40,15 @@ const Contact = () => {
 
   return (
     <section id='contact'>
-      <h5>Get in Touch</h5>
-      <h2>Contact Me</h2>
+      <h1 className='small-title'>Get in Touch</h1>
+      <h2 className='medium-title'>Contact Me</h2>
 
       <div className='container contact__container'>
         <div className='contact__options'>
           <article className='contact__option'>
             <MdOutlineEmail className='contact__option-icon' />
-            <h4>Email</h4>
-            <h5>contact@salimi.my</h5>
+            <h3>Email</h3>
+            <h4>contact@salimi.my</h4>
             <a href='mailto:contact@salimi.my' target='_blank' rel='noreferrer'>
               Email me
             </a>
@@ -56,8 +56,8 @@ const Contact = () => {
 
           <article className='contact__option'>
             <RiMessengerLine className='contact__option-icon' />
-            <h4>Messenger</h4>
-            <h5>Mohamad Salimi</h5>
+            <h3>Messenger</h3>
+            <h4>Mohamad Salimi</h4>
             <a href='https://m.me/mysalimi' target='_blank' rel='noreferrer'>
               Say hello
             </a>
@@ -65,8 +65,8 @@ const Contact = () => {
 
           <article className='contact__option'>
             <BsDiscord className='contact__option-icon' />
-            <h4>Discord</h4>
-            <h5>Salimi#4818</h5>
+            <h3>Discord</h3>
+            <h4>Salimi#4818</h4>
             <a
               href='https://discordapp.com/users/216541962147332096'
               target='_blank'

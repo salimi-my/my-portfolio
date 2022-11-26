@@ -111,7 +111,29 @@ h1 {
   color: var(--color-primary);
 }
 
+.small-title {
+  font-size: 0.83rem;
+  text-align: center;
+  color: var(--color-light);
+}
+
+.medium-title {
+  font-size: 1.5em;
+  text-align: center;
+  color: var(--color-primary);
+  margin-bottom: 3rem;
+}
+
+.big-title {
+  font-size: 2.5rem;
+  color: var(--color-primary);
+}
+
 .bg-dark h5 {
+  color: var(--color-white);
+}
+
+.bg-dark .small-title {
   color: var(--color-white);
 }
 
