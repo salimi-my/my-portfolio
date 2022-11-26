@@ -8,10 +8,12 @@ import emailjs from 'emailjs-com';
 
 const Contact = () => {
   const form = useRef();
-  const [toggleState, setToggleState] = useState(0);
+  const [messageSubmitting, setMessageSubmitting] = useState(false);
+  const [messageSubmitted, setMessageSubmitted] = useState(false);
 
   const sendEmail = (e) => {
     e.preventDefault();
+    setMessageSubmitting(true);
 
     emailjs
       .sendForm(
@@ -23,19 +25,17 @@ const Contact = () => {
       .then(
         (result) => {
           if (result.text === 'OK') {
-            toggleTab(1);
+            setMessageSubmitting(false);
+            setMessageSubmitted(true);
           }
         },
         (error) => {
+          setMessageSubmitting(false);
           console.log(error.text);
         }
       );
 
     e.target.reset();
-  };
-
-  const toggleTab = (index) => {
-    setToggleState(index);
   };
 
   return (
@@ -91,27 +91,35 @@ const Contact = () => {
             placeholder='Your Message'
             required
           ></textarea>
-          <button
-            type='submit'
-            className={
-              toggleState === 0
-                ? 'btn btn-primary submitted-show'
-                : 'btn btn-primary submitted-hide'
-            }
-          >
-            Send Message
-          </button>
-          <button
-            type='submit'
-            className={
-              toggleState === 0
-                ? 'btn btn-success submitted-hide'
-                : 'btn btn-success submitted-show'
-            }
-            disabled
-          >
-            Message Submitted
-          </button>
+          {!messageSubmitting && !messageSubmitted && (
+            <button type='submit' className='btn btn-primary submitted-show'>
+              Send Message
+            </button>
+          )}
+          {messageSubmitting && (
+            <button
+              type='button'
+              className='btn btn-primary submitting-btn-show'
+              disabled
+            >
+              <div className='lds-ring'>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+              </div>
+              Submitting...
+            </button>
+          )}
+          {!messageSubmitting && messageSubmitted && (
+            <button
+              type='button'
+              className='btn btn-success submitted-show'
+              disabled
+            >
+              Message Submitted
+            </button>
+          )}
         </form>
       </div>
     </section>
