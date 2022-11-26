@@ -79,7 +79,7 @@ const Qualification = () => {
                 <span className='qualification__subtitle'>PASUM</span>
                 <div className='qualification__calendar'>
                   <AiOutlineCalendar className='qualification__calendar-icon' />
-                  2020 - 2021
+                  2012 - 2013
                 </div>
               </div>
             </div>
