@@ -25,13 +25,21 @@
   background: var(--color-primary);
   padding: 2rem;
   border-radius: 0 0 2rem 2rem;
-  box-shadow: 0 2rem 1rem rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.2);
 }
 
 .service__head h3 {
   color: var(--color-white);
   font-size: 1rem;
   text-align: center;
+}
+
+.main-content:not(.bg-dark) .service__head:hover ~ .service__list p,
+.main-content:not(.bg-dark)
+  .service__head:hover
+  ~ .service__list
+  .service__list-icon {
+  color: var(--color-primary);
 }
 
 .service__list {
