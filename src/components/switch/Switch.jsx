@@ -17,6 +17,7 @@ function Switch() {
           type='checkbox'
           name='checkbox'
           className='switch'
+          aria-label='Switch Theme'
         />
       </div>
       <ReactTooltip
