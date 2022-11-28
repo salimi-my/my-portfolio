@@ -29,13 +29,19 @@
 
 .portfolio__item-image {
   border-radius: 1.5rem;
+  -moz-border-radius: 1.5rem;
+  -webkit-border-radius: 1.5rem;
   overflow: hidden;
   box-shadow: 0 0.5rem 0.5rem rgb(0 0 0 / 10%);
 }
 
 .portfolio__item-image img {
+  border-radius: 1.5rem;
+  -moz-border-radius: 1.5rem;
+  -webkit-border-radius: 1.5rem;
   height: auto;
   transition: all 0.5s ease-in-out;
+  overflow: hidden;
 }
 
 .portfolio__item:hover .portfolio__item-image img {
