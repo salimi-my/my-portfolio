@@ -14,8 +14,8 @@
 }
 
 .portfolio__item:hover {
-  border-color: var(--color-primary-variant);
-  background: var(--color-primary-variant);
+  border-color: var(--color-primary);
+  background: transparent;
 }
 
 .main-content.bg-dark .portfolio__item:hover {
@@ -23,13 +23,23 @@
   background: transparent;
 }
 
+.main-content:not(.bg-dark) .portfolio__item:hover h3 {
+  color: var(--color-primary);
+}
+
 .portfolio__item-image {
   border-radius: 1.5rem;
   overflow: hidden;
+  box-shadow: 0 0.5rem 0.5rem rgb(0 0 0 / 10%);
 }
 
 .portfolio__item-image img {
   height: auto;
+  transition: all 0.5s ease-in-out;
+}
+
+.portfolio__item:hover .portfolio__item-image img {
+  transform: scale(1.1);
 }
 
 .portfolio__item h3 {
@@ -51,6 +61,37 @@
   text-align: center;
   white-space: nowrap;
   margin: 0.25rem;
+}
+
+.main-content:not(.bg-dark)
+  .portfolio__item:hover
+  .portfolio__tag
+  .portfolio__tag-pill {
+  color: var(--color-primary);
+  border: 1px solid var(--color-primary);
+}
+
+.main-content:not(.bg-dark) .portfolio__item:hover .btn-variant {
+  color: var(--color-primary);
+  border: 1px solid var(--color-primary);
+}
+
+.main-content:not(.bg-dark) .portfolio__item:hover .btn-variant:hover {
+  color: var(--color-white);
+  border: 1px solid var(--color-primary);
+  background: var(--color-primary);
+}
+
+.main-content:not(.bg-dark) .portfolio__item:hover .btn-white {
+  background: var(--color-primary);
+  border: 1px solid var(--color-primary);
+  color: var(--color-white);
+}
+
+.main-content:not(.bg-dark) .portfolio__item:hover .btn-white:hover {
+  background: var(--color-bg-variant);
+  border: 1px solid var(--color-primary);
+  color: var(--color-white);
 }
 
 .portfolio__item-cta {
