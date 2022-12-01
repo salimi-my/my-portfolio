@@ -4,17 +4,19 @@ import './portfolio.css';
 import IMG1 from '../../assets/facebook-clone-min.png';
 import IMG2 from '../../assets/my-portfolio-min.png';
 import IMG3 from '../../assets/instagram-clone-min.png';
-import IMG4 from '../../assets/protected-share-min.png';
+import IMG4 from '../../assets/youtube-clone-min.png';
 import IMG5 from '../../assets/chatters-min.png';
 import IMG6 from '../../assets/travel-map-min.png';
 import IMG7 from '../../assets/phonebook-app-min.png';
+import IMG8 from '../../assets/protected-share-min.png';
 import IMG1webp from '../../assets/facebook-clone-min.webp';
 import IMG2webp from '../../assets/my-portfolio-min.webp';
 import IMG3webp from '../../assets/instagram-clone-min.webp';
-import IMG4webp from '../../assets/protected-share-min.webp';
+import IMG4webp from '../../assets/youtube-clone-min.webp';
 import IMG5webp from '../../assets/chatters-min.webp';
 import IMG6webp from '../../assets/travel-map-min.webp';
 import IMG7webp from '../../assets/phonebook-app-min.webp';
+import IMG8webp from '../../assets/protected-share-min.webp';
 
 const data = [
   {
@@ -48,10 +50,10 @@ const data = [
     id: 4,
     image: IMG4,
     imageWebp: IMG4webp,
-    title: 'Protected Share - File Sharing App',
-    github: 'https://github.com/salimi-my/protected-share',
-    demo: 'https://share.salimi.my',
-    tags: ['Codeigniter', 'Bootstrap', 'MySQL']
+    title: 'YourTube - A YouTube Clone App',
+    github: 'https://github.com/salimi-my/youtube-clone',
+    demo: 'https://yourtube.salimi.my',
+    tags: ['ReactJS', 'Material UI', 'RapidAPI']
   },
   {
     id: 5,
@@ -78,6 +80,15 @@ const data = [
     title: 'Phonebook - A Simple Contacts App',
     github: 'https://github.com/salimi-my/phonebook-app',
     demo: 'https://phonebook.salimi.my',
+    tags: ['Codeigniter', 'Bootstrap', 'MySQL']
+  },
+  {
+    id: 8,
+    image: IMG8,
+    imageWebp: IMG8webp,
+    title: 'Protected Share - File Sharing App',
+    github: 'https://github.com/salimi-my/protected-share',
+    demo: 'https://share.salimi.my',
     tags: ['Codeigniter', 'Bootstrap', 'MySQL']
   }
 ];
