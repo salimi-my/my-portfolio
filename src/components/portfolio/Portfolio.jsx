@@ -9,6 +9,7 @@ import IMG5 from '../../assets/chatters-min.png';
 import IMG6 from '../../assets/travel-map-min.png';
 import IMG7 from '../../assets/phonebook-app-min.png';
 import IMG8 from '../../assets/protected-share-min.png';
+import IMG9 from '../../assets/social-login-min.png';
 import IMG1webp from '../../assets/facebook-clone-min.webp';
 import IMG2webp from '../../assets/my-portfolio-min.webp';
 import IMG3webp from '../../assets/instagram-clone-min.webp';
@@ -17,6 +18,7 @@ import IMG5webp from '../../assets/chatters-min.webp';
 import IMG6webp from '../../assets/travel-map-min.webp';
 import IMG7webp from '../../assets/phonebook-app-min.webp';
 import IMG8webp from '../../assets/protected-share-min.webp';
+import IMG9webp from '../../assets/social-login-min.webp';
 
 const data = [
   {
@@ -80,7 +82,7 @@ const data = [
     title: 'Phonebook - A Simple Contacts App',
     github: 'https://github.com/salimi-my/phonebook-app',
     demo: 'https://phonebook.salimi.my',
-    tags: ['Codeigniter', 'Bootstrap', 'MySQL']
+    tags: ['CodeIgniter', 'Bootstrap', 'MySQL']
   },
   {
     id: 8,
@@ -89,7 +91,16 @@ const data = [
     title: 'Protected Share - File Sharing App',
     github: 'https://github.com/salimi-my/protected-share',
     demo: 'https://share.salimi.my',
-    tags: ['Codeigniter', 'Bootstrap', 'MySQL']
+    tags: ['CodeIgniter', 'Bootstrap', 'MySQL']
+  },
+  {
+    id: 9,
+    image: IMG9,
+    imageWebp: IMG9webp,
+    title: 'Social Login - Codeigniter Social Auth',
+    github: 'https://github.com/salimi-my/social-login',
+    demo: 'https://social-login.salimi.my',
+    tags: ['CodeIgniter', 'Tailwind', 'MySQL']
   }
 ];
 
