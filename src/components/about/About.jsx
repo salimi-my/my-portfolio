@@ -96,8 +96,8 @@ const About = () => {
 
           <p>
             I am an enthusiastic and passionate web developer based in Malaysia
-            with more than three years of experience creating solutions and
-            facilitate project completion.
+            with nearly half a decade of experience dedicated to deliver
+            top-notch solutions and facilitate project success.
           </p>
 
           <a href='#contact' className='btn btn-primary'>
