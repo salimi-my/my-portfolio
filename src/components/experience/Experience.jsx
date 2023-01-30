@@ -9,7 +9,7 @@ const data_frontend = [
   },
   {
     skill: 'CSS',
-    level: 'Intermediate'
+    level: 'Experienced'
   },
   {
     skill: 'JavaScript',
@@ -25,7 +25,7 @@ const data_frontend = [
   },
   {
     skill: 'React',
-    level: 'Intermediate'
+    level: 'Experienced'
   }
 ];
 
@@ -36,7 +36,7 @@ const data_backend = [
   },
   {
     skill: 'MongoDB',
-    level: 'Basic'
+    level: 'Intermediate'
   },
   {
     skill: 'PHP',
@@ -52,7 +52,7 @@ const data_backend = [
   },
   {
     skill: 'Firebase',
-    level: 'Basic'
+    level: 'Intermediate'
   }
 ];
 
