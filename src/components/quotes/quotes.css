@@ -3,6 +3,14 @@
   padding-bottom: 4rem;
 }
 
+.container.quotes__container:hover {
+  cursor: grab;
+}
+
+.container.quotes__container:active {
+  cursor: grabbing;
+}
+
 .client__avatar {
   width: 4rem;
   aspect-ratio: 1/1;
