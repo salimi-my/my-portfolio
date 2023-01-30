@@ -78,7 +78,7 @@ const About = () => {
             <article className='about__card'>
               <FaAward className='about__icon' />
               <h3>Experience</h3>
-              <small>3+ Years Working</small>
+              <small>4+ Years Working</small>
             </article>
 
             <article className='about__card'>
@@ -90,7 +90,7 @@ const About = () => {
             <article className='about__card'>
               <TfiHeadphoneAlt className='about__icon' />
               <h3>Worlwide</h3>
-              <small>Available Remotely</small>
+              <small>Remotely Available</small>
             </article>
           </div>
 
