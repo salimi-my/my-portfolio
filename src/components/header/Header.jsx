@@ -1,8 +1,8 @@
 import React from 'react';
 import './header.css';
 import CTA from './CTA';
-import MEpng from '../../assets/salimi-bw-transparent-min.png';
-import MEwebp from '../../assets/salimi-bw-transparent-min.webp';
+import MEpng from '../../assets/web-developer-min.png';
+import MEwebp from '../../assets/web-developer-min.webp';
 import HeaderSocial from './HeaderSocial';
 
 const Header = () => {

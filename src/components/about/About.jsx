@@ -1,11 +1,11 @@
 import React from 'react';
 import './about.css';
-import MeJpg1000 from '../../assets/salimi-bw-background-1000.jpg';
-import MeWebp1000 from '../../assets/salimi-bw-background-1000.webp';
-import MeJpg440 from '../../assets/salimi-bw-background-440.jpg';
-import MeWebp440 from '../../assets/salimi-bw-background-440.webp';
-import MeJpg250 from '../../assets/salimi-bw-background-250.jpg';
-import MeWebp250 from '../../assets/salimi-bw-background-250.webp';
+import MeJpg1000 from '../../assets/web-developer-bg-1000-min.jpg';
+import MeWebp1000 from '../../assets/web-developer-bg-1000-min.webp';
+import MeJpg440 from '../../assets/web-developer-bg-440-min.jpg';
+import MeWebp440 from '../../assets/web-developer-bg-440-min.webp';
+import MeJpg250 from '../../assets/web-developer-bg-250-min.jpg';
+import MeWebp250 from '../../assets/web-developer-bg-250-min.webp';
 import { FaAward } from 'react-icons/fa';
 import { TfiHeadphoneAlt } from 'react-icons/tfi';
 import { VscFolderLibrary } from 'react-icons/vsc';
