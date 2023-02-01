@@ -34,12 +34,12 @@ Direct link: `https://www.salimi.my`
 
 #### Homepage
 
-![Homepage](/screenshots/screenshot-1.png)
+![Homepage](/screenshots/screenshot-top.png)
 
 #### About
 
-![About](/screenshots/screenshot-2.png)
+![About](/screenshots/screenshot-middle.png)
 
 #### Contact
 
-![Contact](/screenshots/screenshot-3.png)
+![Contact](/screenshots/screenshot-bottom.png)
