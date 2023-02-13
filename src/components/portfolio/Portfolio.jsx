@@ -5,20 +5,22 @@ import IMG1 from '../../assets/facebook-clone-min.png';
 import IMG2 from '../../assets/my-portfolio-min.png';
 import IMG3 from '../../assets/instagram-clone-min.png';
 import IMG4 from '../../assets/youtube-clone-min.png';
-import IMG5 from '../../assets/chatters-min.png';
+import IMG5 from '../../assets/waktu-solat-min.png';
 import IMG6 from '../../assets/travel-map-min.png';
-import IMG7 from '../../assets/phonebook-app-min.png';
-import IMG8 from '../../assets/protected-share-min.png';
-import IMG9 from '../../assets/social-login-min.png';
+import IMG7 from '../../assets/chatters-min.png';
+import IMG8 from '../../assets/phonebook-app-min.png';
+import IMG9 from '../../assets/protected-share-min.png';
+import IMG10 from '../../assets/social-login-min.png';
 import IMG1webp from '../../assets/facebook-clone-min.webp';
 import IMG2webp from '../../assets/my-portfolio-min.webp';
 import IMG3webp from '../../assets/instagram-clone-min.webp';
 import IMG4webp from '../../assets/youtube-clone-min.webp';
-import IMG5webp from '../../assets/chatters-min.webp';
+import IMG5webp from '../../assets/waktu-solat-min.webp';
 import IMG6webp from '../../assets/travel-map-min.webp';
-import IMG7webp from '../../assets/phonebook-app-min.webp';
-import IMG8webp from '../../assets/protected-share-min.webp';
-import IMG9webp from '../../assets/social-login-min.webp';
+import IMG7webp from '../../assets/chatters-min.webp';
+import IMG8webp from '../../assets/phonebook-app-min.webp';
+import IMG9webp from '../../assets/protected-share-min.webp';
+import IMG10webp from '../../assets/social-login-min.webp';
 
 const data = [
   {
@@ -61,10 +63,10 @@ const data = [
     id: 5,
     image: IMG5,
     imageWebp: IMG5webp,
-    title: 'Chatters - A Simple Chat App',
-    github: 'https://github.com/salimi-my/chatters',
-    demo: 'https://chatters.salimi.my',
-    tags: ['NextJS', 'TypeScript', 'Upstash']
+    title: "Waktu Solat - Prayer's Schedule",
+    github: 'https://github.com/salimi-my/waktu-solat',
+    demo: 'https://solat.salimi.my',
+    tags: ['VueJS', 'Tailwind', 'DayJS']
   },
   {
     id: 6,
@@ -79,24 +81,33 @@ const data = [
     id: 7,
     image: IMG7,
     imageWebp: IMG7webp,
+    title: 'Chatters - A Simple Chat App',
+    github: 'https://github.com/salimi-my/chatters',
+    demo: 'https://chatters.salimi.my',
+    tags: ['NextJS', 'TypeScript', 'Upstash']
+  },
+  {
+    id: 8,
+    image: IMG8,
+    imageWebp: IMG8webp,
     title: 'Phonebook - A Simple Contacts App',
     github: 'https://github.com/salimi-my/phonebook-app',
     demo: 'https://phonebook.salimi.my',
     tags: ['CodeIgniter', 'Bootstrap', 'MySQL']
   },
   {
-    id: 8,
-    image: IMG8,
-    imageWebp: IMG8webp,
+    id: 9,
+    image: IMG9,
+    imageWebp: IMG9webp,
     title: 'Protected Share - File Sharing App',
     github: 'https://github.com/salimi-my/protected-share',
     demo: 'https://share.salimi.my',
     tags: ['CodeIgniter', 'Bootstrap', 'MySQL']
   },
   {
-    id: 9,
-    image: IMG9,
-    imageWebp: IMG9webp,
+    id: 10,
+    image: IMG10,
+    imageWebp: IMG10webp,
     title: 'Social Login - Codeigniter Social Auth',
     github: 'https://github.com/salimi-my/social-login',
     demo: 'https://social-login.salimi.my',
