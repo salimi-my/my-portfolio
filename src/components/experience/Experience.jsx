@@ -26,6 +26,14 @@ const data_frontend = [
   {
     skill: 'React',
     level: 'Experienced'
+  },
+  {
+    skill: 'Vue',
+    level: 'Experienced'
+  },
+  {
+    skill: 'Vite',
+    level: 'Experienced'
   }
 ];
 
@@ -53,6 +61,14 @@ const data_backend = [
   {
     skill: 'Firebase',
     level: 'Intermediate'
+  },
+  {
+    skill: 'Laravel',
+    level: 'Intermediate'
+  },
+  {
+    skill: 'Inertia',
+    level: 'Experienced'
   }
 ];
 
