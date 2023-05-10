@@ -36,7 +36,8 @@ const data = [
     title: 'Social Login - Codeigniter Social Auth',
     github: 'https://github.com/salimi-my/social-login',
     demo: 'https://social-login.salimi.my',
-    tags: ['CodeIgniter', 'Tailwind', 'MySQL']
+    tags: ['CodeIgniter', 'Tailwind', 'MySQL'],
+    desc: 'This is a social media auth app created using Codeigniter with Facebook, Google, or Twitter.'
   },
   {
     id: 2,
@@ -45,7 +46,8 @@ const data = [
     title: 'Protected Share - File Sharing App',
     github: 'https://github.com/salimi-my/protected-share',
     demo: 'https://share.salimi.my',
-    tags: ['CodeIgniter', 'Bootstrap', 'MySQL']
+    tags: ['CodeIgniter', 'Bootstrap', 'MySQL'],
+    desc: 'This is a simple file sharing app with shared link are password protected to download.'
   },
   {
     id: 3,
@@ -54,7 +56,8 @@ const data = [
     title: 'Phonebook - A Simple Contacts App',
     github: 'https://github.com/salimi-my/phonebook-app',
     demo: 'https://phonebook.salimi.my',
-    tags: ['CodeIgniter', 'Bootstrap', 'MySQL']
+    tags: ['CodeIgniter', 'Bootstrap', 'MySQL'],
+    desc: 'This is a simple CRUD application created using Codeigniter for contacts book listing.'
   },
   {
     id: 4,
@@ -63,7 +66,8 @@ const data = [
     title: 'My Portfolio - A Personal Portfolio Site',
     github: 'https://github.com/salimi-my/my-portfolio',
     demo: 'https://www.salimi.my',
-    tags: ['ReactJS', 'EmailJS']
+    tags: ['ReactJS', 'EmailJS'],
+    desc: 'This is my personal portfolio website, built with React, showing list of my personal projects.'
   },
   {
     id: 5,
@@ -72,7 +76,8 @@ const data = [
     title: 'Chatters - A Simple Chat App',
     github: 'https://github.com/salimi-my/chatters',
     demo: 'https://chatters.salimi.my',
-    tags: ['NextJS', 'TypeScript', 'Upstash']
+    tags: ['NextJS', 'TypeScript', 'Upstash'],
+    desc: 'This a simple chat app created using Next.js 13. User can login using Google and send chats.'
   },
   {
     id: 6,
@@ -81,7 +86,8 @@ const data = [
     title: 'Travel Map - A Simple Map App',
     github: 'https://github.com/salimi-my/travel-map',
     demo: 'https://travel.salimi.my',
-    tags: ['MERN Stack', 'Mapbox', 'JWT']
+    tags: ['MERN Stack', 'Mapbox', 'JWT'],
+    desc: 'This a simple travel map app created with MERN. User can register, login and add pin on map.'
   },
   {
     id: 7,
@@ -90,7 +96,8 @@ const data = [
     title: "Waktu Solat - Prayer's Schedule",
     github: 'https://github.com/salimi-my/waktu-solat',
     demo: 'https://solat.salimi.my',
-    tags: ['VueJS', 'Tailwind', 'DayJS']
+    tags: ['VueJS', 'Tailwind', 'DayJS'],
+    desc: 'This is a simple web app created using Vue.js that aims to display prayer times in Malaysia.'
   },
   {
     id: 8,
@@ -99,7 +106,8 @@ const data = [
     title: 'YourTube - A YouTube Clone App',
     github: 'https://github.com/salimi-my/youtube-clone',
     demo: 'https://yourtube.salimi.my',
-    tags: ['ReactJS', 'Material UI', 'RapidAPI']
+    tags: ['ReactJS', 'Material UI', 'RapidAPI'],
+    desc: 'This is YouTube clone created using React.js and Material UI. Videos populated using RapidAPI.'
   },
   {
     id: 9,
@@ -108,7 +116,8 @@ const data = [
     title: 'Instakilo - An Instagram Clone App',
     github: 'https://github.com/salimi-my/instagram-clone',
     demo: 'https://instakilo.salimi.my',
-    tags: ['NextJS', 'Tailwind', 'Firebase']
+    tags: ['NextJS', 'Tailwind', 'Firebase'],
+    desc: 'This is an Instagram clone created using Nextjs, Firebase, Recoil, Tailwind and NextAuthjs.'
   },
   {
     id: 10,
@@ -117,7 +126,8 @@ const data = [
     title: 'Fakebook - A Facebook Clone App',
     github: 'https://github.com/salimi-my/facebook-clone',
     demo: 'https://fakebook.salimi.my',
-    tags: ['NextJS', 'Tailwind', 'Firebase']
+    tags: ['NextJS', 'Tailwind', 'Firebase'],
+    desc: 'This is a Facebook clone created using Nextjs, Firebase, Recoil, Tailwind and NextAuthjs.'
   },
   {
     id: 11,
@@ -126,7 +136,8 @@ const data = [
     title: 'House - Property Listing App',
     github: 'https://github.com/salimi-my/house',
     demo: 'https://house.salimi.my',
-    tags: ['Laravel', 'VueJS', 'InertiaJS']
+    tags: ['Laravel', 'VueJS', 'InertiaJS'],
+    desc: 'This is an online property listing and marketplace app created using Laravel, Vue and Inertia.'
   },
   {
     id: 12,
@@ -135,7 +146,8 @@ const data = [
     title: 'AI Image Generator - Image App',
     github: 'https://github.com/salimi-my/ai-image-generator',
     demo: 'https://ai-image.salimi.my/',
-    tags: ['MERN Stack', 'Tailwind', 'Open AI']
+    tags: ['MERN Stack', 'Tailwind', 'Open AI'],
+    desc: 'This is an AI app that can create realistic images and art from a description in natural language.'
   }
 ];
 
@@ -151,7 +163,7 @@ const Portfolio = () => {
           .slice(0)
           .reverse()
           .slice(0, count)
-          .map(({ id, image, imageWebp, title, github, demo, tags }) => {
+          .map(({ id, image, imageWebp, title, github, demo, tags, desc }) => {
             return (
               <article key={id} className='portfolio__item'>
                 <div className='portfolio__item-image'>
@@ -176,6 +188,7 @@ const Portfolio = () => {
                     );
                   })}
                 </div>
+                <p className='portfolio__desc'>{desc}</p>
                 <div className='portfolio__item-cta'>
                   <a
                     href={github}
