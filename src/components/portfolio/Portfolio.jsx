@@ -14,6 +14,7 @@ import IMG9 from '../../assets/instagram-clone-min.png';
 import IMG10 from '../../assets/facebook-clone-min.png';
 import IMG11 from '../../assets/house-min.png';
 import IMG12 from '../../assets/ai-image-min.png';
+import IMG13 from '../../assets/netflix-clone-min.png';
 
 import IMG1webp from '../../assets/social-login-min.webp';
 import IMG2webp from '../../assets/protected-share-min.webp';
@@ -27,6 +28,7 @@ import IMG9webp from '../../assets/instagram-clone-min.webp';
 import IMG10webp from '../../assets/facebook-clone-min.webp';
 import IMG11webp from '../../assets/house-min.webp';
 import IMG12webp from '../../assets/ai-image-min.webp';
+import IMG13webp from '../../assets/netflix-clone-min.webp';
 
 const data = [
   {
@@ -145,9 +147,19 @@ const data = [
     imageWebp: IMG12webp,
     title: 'AI Image Generator - Image App',
     github: 'https://github.com/salimi-my/ai-image-generator',
-    demo: 'https://ai-image.salimi.my/',
+    demo: 'https://ai-image.salimi.my',
     tags: ['MERN Stack', 'Tailwind', 'Open AI'],
     desc: 'This is an AI app that can create realistic images and art from a description in natural language.'
+  },
+  {
+    id: 13,
+    image: IMG13,
+    imageWebp: IMG13webp,
+    title: 'Netfuix - A Netflix Clone App',
+    github: 'https://github.com/salimi-my/netflix-clone',
+    demo: 'https://netfuix.salimi.my',
+    tags: ['NextJS', 'Tailwind', 'Prisma'],
+    desc: 'This is a Netflix clone created using Nextjs, Prisma, MongoDB, Tailwind, NextAuthjs and Zustand.'
   }
 ];
 
