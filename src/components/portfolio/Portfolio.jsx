@@ -15,6 +15,7 @@ import IMG10 from '../../assets/facebook-clone-min.png';
 import IMG11 from '../../assets/house-min.png';
 import IMG12 from '../../assets/ai-image-min.png';
 import IMG13 from '../../assets/netflix-clone-min.png';
+import IMG14 from '../../assets/ai-summarizer-min.png';
 
 import IMG1webp from '../../assets/social-login-min.webp';
 import IMG2webp from '../../assets/protected-share-min.webp';
@@ -29,6 +30,7 @@ import IMG10webp from '../../assets/facebook-clone-min.webp';
 import IMG11webp from '../../assets/house-min.webp';
 import IMG12webp from '../../assets/ai-image-min.webp';
 import IMG13webp from '../../assets/netflix-clone-min.webp';
+import IMG14webp from '../../assets/ai-summarizer-min.webp';
 
 const data = [
   {
@@ -160,6 +162,16 @@ const data = [
     demo: 'https://netfuix.salimi.my',
     tags: ['NextJS', 'Tailwind', 'Prisma'],
     desc: 'This is a Netflix clone created using Nextjs, Prisma, MongoDB, Tailwind, NextAuthjs and Zustand.'
+  },
+  {
+    id: 14,
+    image: IMG14,
+    imageWebp: IMG14webp,
+    title: 'AI Summarizer - An Article Simplifier',
+    github: 'https://github.com/salimi-my/ai-summarizer',
+    demo: 'https://summarizer.salimi.my',
+    tags: ['ReactJS', 'Tailwind', 'Rapid API'],
+    desc: 'This is an AI app to simplify lengthy articles into concise summaries by inputting article URL.'
   }
 ];
 
