@@ -4,29 +4,32 @@ This is a simple personal portfolio site created using React.
 
 ## My Portfolio
 
-- A simple one page site
+- A simple Single Page App (SPA)
 - Created using React
 - Light & Dark mode
 - Send messages using EmailJS
 
 ## Tech/framework used
 
+- Vite
 - React
 - EmailJS
 
 ## Starting the project
 
-Open the [.env.local.example](/.env.local.example) and fill in your EmailJS Configurations then save it as .env.local the run the following command:
+Open the [.env.local.example](/.env.local.example) and fill in your EmailJS Configurations then rename and save it as .env.local then run the following command:
 
 ```bash
-npm start
+npm install
+npm run dev
 # or
-yarn start
+yarn install
+yarn run dev
 ```
 
 ## Demo
 
-Host the project anywhere you want. [Click here](https://www.salimi.my) to visit.
+Hosted on personal VPS. [Click here](https://www.salimi.my) to visit.
 <br>
 Direct link: `https://www.salimi.my`
 
