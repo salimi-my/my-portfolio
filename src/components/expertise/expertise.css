@@ -1,10 +1,10 @@
-.services__container {
+.expertises__container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 3rem;
 }
 
-.service {
+.expertise {
   background: var(--color-bg-variant);
   border-radius: 0 0 2rem 2rem;
   border: 1px solid var(--color-primary);
@@ -12,47 +12,47 @@
   transition: var(--transition);
 }
 
-.service:hover {
+.expertise:hover {
   background: transparent;
   cursor: default;
 }
 
-.main-content:not(.bg-dark) .bg-dark .service:hover {
+.main-content:not(.bg-dark) .bg-dark .expertise:hover {
   border-color: var(--color-primary-variant);
 }
 
-.service__head {
+.expertise__head {
   background: var(--color-primary);
   padding: 2rem;
   border-radius: 0 0 2rem 2rem;
   box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.2);
 }
 
-.service__head h3 {
+.expertise__head h3 {
   color: var(--color-white);
   font-size: 1rem;
   text-align: center;
 }
 
-.main-content:not(.bg-dark) .service__head:hover ~ .service__list p,
+.main-content:not(.bg-dark) .expertise__head:hover ~ .expertise__list p,
 .main-content:not(.bg-dark)
-  .service__head:hover
-  ~ .service__list
-  .service__list-icon {
+  .expertise__head:hover
+  ~ .expertise__list
+  .expertise__list-icon {
   color: var(--color-primary);
 }
 
-.service__list {
+.expertise__list {
   padding: 2rem;
 }
 
-.service__list li {
+.expertise__list li {
   display: flex;
   gap: 1rem;
   margin-bottom: 0.8rem;
 }
 
-.service__list-icon {
+.expertise__list-icon {
   color: var(--color-white);
   margin-top: 2px;
   font-size: 1rem;
@@ -60,34 +60,34 @@
   max-width: 1rem;
 }
 
-.main-content:not(.bg-dark) .service__list:hover .service__list-icon {
+.main-content:not(.bg-dark) .expertise__list:hover .expertise__list-icon {
   color: var(--color-primary);
 }
 
-.service__list p {
+.expertise__list p {
   font-size: 0.9rem;
   color: var(--color-white);
 }
 
-.main-content:not(.bg-dark) .service__list:hover p {
+.main-content:not(.bg-dark) .expertise__list:hover p {
   color: var(--color-primary);
 }
 
 /* ========== MEDIA QUERIES (MEDIUM DEVICES) ========== */
 @media screen and (max-width: 1024px) {
-  .services__container {
+  .expertises__container {
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
   }
 
-  .service {
+  .expertise {
     height: auto;
   }
 }
 
 /* ========== MEDIA QUERIES (SMALL DEVICES) ========== */
 @media screen and (max-width: 600px) {
-  .services__container {
+  .expertises__container {
     grid-template-columns: 1fr;
     gap: 1.5rem;
   }

@@ -44,11 +44,11 @@ const Nav = () => {
       </a>
       <a
         data-tip
-        data-for='servicesBtn'
-        href='#services'
-        aria-label='Services'
-        onClick={() => setActiveNav('#services')}
-        className={activeNav === '#services' ? 'active' : ''}
+        data-for='expertiseBtn'
+        href='#expertise'
+        aria-label='Expertise'
+        onClick={() => setActiveNav('#expertise')}
+        className={activeNav === '#expertise' ? 'active' : ''}
       >
         <BiTask />
       </a>
@@ -108,7 +108,7 @@ const Nav = () => {
         Experience
       </Tooltip>
       <Tooltip
-        id='servicesBtn'
+        id='expertiseBtn'
         place='top'
         type='dark'
         effect='solid'
@@ -116,7 +116,7 @@ const Nav = () => {
         backgroundColor='rgba(0, 0, 0, 0.3)'
         arrowColor='rgba(0, 0, 0, 0)'
       >
-        Services
+        Expertise
       </Tooltip>
       <Tooltip
         id='qualificationBtn'

@@ -3,7 +3,7 @@ import Header from './components/header/Header';
 import Nav from './components/nav/Nav';
 import About from './components/about/About';
 import Experience from './components/experience/Experience';
-import Services from './components/services/Services';
+import Expertise from './components/expertise/Expertise';
 import Qualification from './components/qualification/Qualification';
 import Portfolio from './components/portfolio/Portfolio';
 import Quotes from './components/quotes/Quotes';
@@ -28,7 +28,7 @@ const App = () => {
         <Nav />
         <About />
         <Experience />
-        <Services />
+        <Expertise />
         <Qualification />
         <Portfolio />
         <Quotes />
