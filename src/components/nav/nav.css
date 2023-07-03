@@ -32,14 +32,19 @@ nav a.active {
   color: var(--color-bg);
 }
 
-.tooltip {
+nav .tooltip {
   border-radius: 3rem !important;
   backdrop-filter: blur(15px);
   padding: 2px 15px !important;
-  top: -25px !important;
+  background-color: rgba(0, 0, 0, 0.3);
+  top: -35px !important;
 }
 
-.place-top::before {
+nav .tooltip .tooltip-arrow {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+nav .react-tooltip-arrow {
   display: none !important;
 }
 

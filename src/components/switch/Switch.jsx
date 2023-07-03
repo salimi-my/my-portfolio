@@ -7,7 +7,11 @@ function Switch() {
   const { darkMode, setDarkMode, myStorage } = useContext(SwitchContext);
   return (
     <>
-      <div data-tip data-for='modebtn' className='wrapper'>
+      <div
+        data-tooltip-content='Switch Theme'
+        data-tooltip-id='modebtn'
+        className='wrapper'
+      >
         <input
           onChange={() => {
             setDarkMode(!darkMode);
@@ -23,7 +27,7 @@ function Switch() {
       <Tooltip
         id='modebtn'
         place='left'
-        type='dark'
+        variant='dark'
         effect='solid'
         className='tooltip-mode'
       >

@@ -13,8 +13,8 @@ const Nav = () => {
   return (
     <nav>
       <a
-        data-tip
-        data-for='homeBtn'
+        data-tooltip-content='Home'
+        data-tooltip-id='homeBtn'
         href='#home'
         aria-label='Home'
         onClick={() => setActiveNav('#home')}
@@ -23,8 +23,8 @@ const Nav = () => {
         <AiOutlineHome />
       </a>
       <a
-        data-tip
-        data-for='aboutBtn'
+        data-tooltip-content='About'
+        data-tooltip-id='aboutBtn'
         href='#about'
         aria-label='About'
         onClick={() => setActiveNav('#about')}
@@ -33,8 +33,8 @@ const Nav = () => {
         <AiOutlineUser />
       </a>
       <a
-        data-tip
-        data-for='experienceBtn'
+        data-tooltip-content='Experience'
+        data-tooltip-id='experienceBtn'
         href='#experience'
         aria-label='Experience'
         onClick={() => setActiveNav('#experience')}
@@ -43,8 +43,8 @@ const Nav = () => {
         <BiBook />
       </a>
       <a
-        data-tip
-        data-for='expertiseBtn'
+        data-tooltip-content='Expertise'
+        data-tooltip-id='expertiseBtn'
         href='#expertise'
         aria-label='Expertise'
         onClick={() => setActiveNav('#expertise')}
@@ -53,8 +53,8 @@ const Nav = () => {
         <BiTask />
       </a>
       <a
-        data-tip
-        data-for='qualificationBtn'
+        data-tooltip-content='Qualification'
+        data-tooltip-id='qualificationBtn'
         id='menu-qualification'
         href='#qualification'
         aria-label='Qualification'
@@ -64,8 +64,8 @@ const Nav = () => {
         <SlGraduation />
       </a>
       <a
-        data-tip
-        data-for='contactBtn'
+        data-tooltip-content='Contact'
+        data-tooltip-id='contactBtn'
         href='#contact'
         aria-label='Contact'
         onClick={() => setActiveNav('#contact')}
@@ -77,66 +77,54 @@ const Nav = () => {
       <Tooltip
         id='homeBtn'
         place='top'
-        type='dark'
+        variant='dark'
         effect='solid'
-        className='tooltip'
-        backgroundColor='rgba(0, 0, 0, 0.3)'
-        arrowColor='rgba(0, 0, 0, 0)'
+        className='tooltip noArrow'
       >
         Home
       </Tooltip>
       <Tooltip
         id='aboutBtn'
         place='top'
-        type='dark'
+        variant='dark'
         effect='solid'
-        className='tooltip'
-        backgroundColor='rgba(0, 0, 0, 0.3)'
-        arrowColor='rgba(0, 0, 0, 0)'
+        className='tooltip noArrow'
       >
         About
       </Tooltip>
       <Tooltip
         id='experienceBtn'
         place='top'
-        type='dark'
+        variant='dark'
         effect='solid'
-        className='tooltip'
-        backgroundColor='rgba(0, 0, 0, 0.3)'
-        arrowColor='rgba(0, 0, 0, 0)'
+        className='tooltip noArrow'
       >
         Experience
       </Tooltip>
       <Tooltip
         id='expertiseBtn'
         place='top'
-        type='dark'
+        variant='dark'
         effect='solid'
-        className='tooltip'
-        backgroundColor='rgba(0, 0, 0, 0.3)'
-        arrowColor='rgba(0, 0, 0, 0)'
+        className='tooltip noArrow'
       >
         Expertise
       </Tooltip>
       <Tooltip
         id='qualificationBtn'
         place='top'
-        type='dark'
+        variant='dark'
         effect='solid'
-        className='tooltip'
-        backgroundColor='rgba(0, 0, 0, 0.3)'
-        arrowColor='rgba(0, 0, 0, 0)'
+        className='tooltip noArrow'
       >
         Qualification
       </Tooltip>
       <Tooltip
         id='contactBtn'
         place='top'
-        type='dark'
+        variant='dark'
         effect='solid'
-        className='tooltip'
-        backgroundColor='rgba(0, 0, 0, 0.3)'
-        arrowColor='rgba(0, 0, 0, 0)'
+        className='tooltip noArrow'
       >
         Contact
       </Tooltip>
