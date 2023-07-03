@@ -66,13 +66,13 @@ const Contact = () => {
           <article className='contact__option'>
             <BsDiscord className='contact__option-icon' />
             <h3>Discord</h3>
-            <h4>Salimi#4818</h4>
+            <h4>salimi.my</h4>
             <a
               href='https://discordapp.com/users/216541962147332096'
               target='_blank'
               rel='noreferrer'
             >
-              Chat with me
+              Let&apos;s chat
             </a>
           </article>
         </div>
