@@ -1,6 +1,5 @@
-import React from 'react';
 import './header.css';
-import CTA from './CTA';
+import Cta from './Cta';
 import MEpng from '../../assets/web-developer-min.png';
 import MEwebp from '../../assets/web-developer-min.webp';
 import HeaderSocial from './HeaderSocial';
@@ -16,7 +15,7 @@ const Header = () => {
         <div className='typewriter'>
           <h3 className='text-gradient'>Web Developer</h3>
         </div>
-        <CTA />
+        <Cta />
         <HeaderSocial />
 
         <div className='me'>

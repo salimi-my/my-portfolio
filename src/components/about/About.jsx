@@ -1,4 +1,3 @@
-import React from 'react';
 import './about.css';
 import MeJpg1000 from '../../assets/web-developer-bg-1000-min.jpg';
 import MeWebp1000 from '../../assets/web-developer-bg-1000-min.webp';
@@ -101,7 +100,7 @@ const About = () => {
           </p>
 
           <a href='#contact' className='btn btn-primary'>
-            Let's Talk
+            Let&apos;s Talk
           </a>
         </div>
       </div>

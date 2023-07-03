@@ -1,7 +1,6 @@
-import React from 'react';
 import { BsFillChatFill } from 'react-icons/bs';
 
-const CTA = () => {
+const Cta = () => {
   return (
     <div className='cta'>
       <a
@@ -13,10 +12,10 @@ const CTA = () => {
         Download CV
       </a>
       <a href='#contact' className='btn btn-primary cta-icon'>
-        <BsFillChatFill /> Let's Talk
+        <BsFillChatFill /> Let&apos;s Talk
       </a>
     </div>
   );
 };
 
-export default CTA;
+export default Cta;

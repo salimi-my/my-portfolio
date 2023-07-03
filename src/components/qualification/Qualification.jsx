@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import './qualification.css';
 import { FaUserGraduate } from 'react-icons/fa';
 import { FaBriefcase } from 'react-icons/fa';
