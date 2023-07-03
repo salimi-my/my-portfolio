@@ -165,8 +165,5 @@
   backdrop-filter: blur(15px);
   padding: 2px 15px !important;
   top: 10px !important;
-}
-
-.tooltip-mode.place-left::before {
-  display: none !important;
+  position: fixed !important;
 }
