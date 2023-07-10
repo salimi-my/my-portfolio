@@ -4,7 +4,7 @@ const Cta = () => {
   return (
     <div className='cta'>
       <a
-        href='https://share.salimi.my/share/file/7cbb3d49585ebfe510f3787c6e61a1cf'
+        href='https://share.salimi.my/share/file/f1a0b3050e57a7dec2a94499bd4f8524'
         target='_blank'
         rel='noreferrer'
         className='btn cta-icon dl'
