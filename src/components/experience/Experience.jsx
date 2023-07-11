@@ -15,6 +15,10 @@ const data_frontend = [
     level: 'Experienced'
   },
   {
+    skill: 'TypeScript',
+    level: 'Intermediate'
+  },
+  {
     skill: 'Bootstrap',
     level: 'Experienced'
   },
@@ -33,10 +37,22 @@ const data_frontend = [
   {
     skill: 'Vite',
     level: 'Experienced'
+  },
+  {
+    skill: 'NextJS',
+    level: 'Experienced'
   }
 ];
 
 const data_backend = [
+  {
+    skill: 'Laravel',
+    level: 'Intermediate'
+  },
+  {
+    skill: 'Codeigniter',
+    level: 'Experienced'
+  },
   {
     skill: 'Node JS',
     level: 'Basic'
@@ -54,20 +70,20 @@ const data_backend = [
     level: 'Experienced'
   },
   {
-    skill: 'Codeigniter',
-    level: 'Experienced'
-  },
-  {
     skill: 'Firebase',
-    level: 'Intermediate'
-  },
-  {
-    skill: 'Laravel',
     level: 'Intermediate'
   },
   {
     skill: 'Inertia',
     level: 'Experienced'
+  },
+  {
+    skill: 'Express JS',
+    level: 'Basic'
+  },
+  {
+    skill: 'Prisma',
+    level: 'Basic'
   }
 ];
 
