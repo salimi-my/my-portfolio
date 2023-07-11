@@ -38,21 +38,44 @@ const Footer = () => {
       </ul>
 
       <div className='footer__socials'>
-        <a href='https://www.facebook.com/mysalimi' aria-label='Facebook'>
+        <a
+          href='https://www.facebook.com/mysalimi'
+          aria-label='Facebook'
+          target='_blank'
+          rel='noreferrer'
+        >
           <FaFacebookF />
         </a>
-        <a href='https://www.instagram.com/salimi.my/' aria-label='Instagram'>
+        <a
+          href='https://www.instagram.com/salimi.my/'
+          aria-label='Instagram'
+          target='_blank'
+          rel='noreferrer'
+        >
           <FiInstagram />
         </a>
-        <a href='https://twitter.com/mysalimi' aria-label='Twitter'>
+        <a
+          href='https://twitter.com/mysalimi'
+          aria-label='Twitter'
+          target='_blank'
+          rel='noreferrer'
+        >
           <IoLogoTwitter />
         </a>
       </div>
 
       <div className='footer__copyright'>
         <small>
-          Made with React &copy; {new Date().getFullYear()} SALIMI. All rights
-          reserved.
+          Created by yours truly,{' '}
+          <a
+            href='https://www.linkedin.com/in/mohamad-salimi/'
+            aria-label='Salimi'
+            target='_blank'
+            rel='noreferrer'
+          >
+            Salimi
+          </a>{' '}
+          &copy; {new Date().getFullYear()}.
         </small>
       </div>
     </footer>
