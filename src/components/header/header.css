@@ -13,21 +13,24 @@ header {
 
 /* ========== WEB DEVELOPER ========== */
 .typewriter {
+  margin-left: 15px;
   display: inline-block;
+  color: #ea4335 !important;
 }
 
-.typewriter h3 {
-  padding: 0 0.3rem;
+.typewriter span {
+  padding: 0 0.1rem;
   overflow: hidden;
-  border-right: 0.15em solid var(--color-primary);
+  /* border-right: 0.15em solid var(--color-primary); */
   white-space: nowrap;
   margin: 0 auto;
-  letter-spacing: 0.7rem;
-  animation: typing 3s steps(13, end), blink-caret 0.75s step-end infinite;
+  letter-spacing: 0.4rem;
+  font-weight: 500;
+  /* animation: typing 3s steps(13, end), blink-caret 0.75s step-end infinite; */
 }
 
 .text-gradient {
-  font-size: 1.17em;
+  font-size: 1.2em;
   background: -webkit-linear-gradient(
     -60deg,
     #4285f4,
@@ -40,7 +43,7 @@ header {
   -webkit-text-fill-color: transparent;
 }
 
-@keyframes typing {
+/* @keyframes typing {
   from {
     width: 0;
   }
@@ -57,7 +60,7 @@ header {
   50% {
     border-color: var(--color-primary);
   }
-}
+} */
 
 /* ========== CTA ========== */
 .cta {

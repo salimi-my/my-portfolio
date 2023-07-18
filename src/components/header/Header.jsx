@@ -3,8 +3,14 @@ import Cta from './Cta';
 import MEpng from '../../assets/web-developer-min.png';
 import MEwebp from '../../assets/web-developer-min.webp';
 import HeaderSocial from './HeaderSocial';
+import { useTypewriter, Cursor } from 'react-simple-typewriter';
 
 const Header = () => {
+  const [text] = useTypewriter({
+    words: ['Web Developer', 'Frontend Developer'],
+    loop: true
+  });
+
   return (
     <header id='home'>
       <div className='container header__container'>
@@ -13,7 +19,8 @@ const Header = () => {
           <h2 className='big-title'>Mohamad Salimi</h2>
         </a>
         <div className='typewriter'>
-          <h3 className='text-gradient'>Web Developer</h3>
+          <span className='text-gradient'>{text}</span>
+          <Cursor cursorColor='#444444' cursorStyle='|' />
         </div>
         <Cta />
         <HeaderSocial />
