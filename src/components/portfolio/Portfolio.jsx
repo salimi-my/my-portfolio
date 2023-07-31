@@ -16,6 +16,7 @@ import IMG11 from '../../assets/house-min.png';
 import IMG12 from '../../assets/ai-image-min.png';
 import IMG13 from '../../assets/netflix-clone-min.png';
 import IMG14 from '../../assets/ai-summarizer-min.png';
+import IMG15 from '../../assets/hangman-min.png';
 
 import IMG1webp from '../../assets/social-login-min.webp';
 import IMG2webp from '../../assets/protected-share-min.webp';
@@ -31,6 +32,7 @@ import IMG11webp from '../../assets/house-min.webp';
 import IMG12webp from '../../assets/ai-image-min.webp';
 import IMG13webp from '../../assets/netflix-clone-min.webp';
 import IMG14webp from '../../assets/ai-summarizer-min.webp';
+import IMG15webp from '../../assets/hangman-min.webp';
 
 const data = [
   {
@@ -172,6 +174,16 @@ const data = [
     demo: 'https://summarizer.salimi.my',
     tags: ['ReactJS', 'Tailwind', 'Rapid API'],
     desc: 'This is an AI app to simplify lengthy articles into concise summaries by inputting article URL.'
+  },
+  {
+    id: 15,
+    image: IMG15,
+    imageWebp: IMG15webp,
+    title: 'Hangman - Guess The Word',
+    github: 'https://github.com/salimi-my/hangman',
+    demo: 'https://hangman.salimi.my',
+    tags: ['ReactJS', 'Tailwind'],
+    desc: 'This is a classic word puzzle game Hangman user play by guessing letters one at a time to solve it.'
   }
 ];
 
