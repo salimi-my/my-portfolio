@@ -17,6 +17,7 @@ import IMG12 from '../../assets/ai-image-min.png';
 import IMG13 from '../../assets/netflix-clone-min.png';
 import IMG14 from '../../assets/ai-summarizer-min.png';
 import IMG15 from '../../assets/hangman-min.png';
+import IMG16 from '../../assets/url-shortener-min.png';
 
 import IMG1webp from '../../assets/social-login-min.webp';
 import IMG2webp from '../../assets/protected-share-min.webp';
@@ -33,6 +34,7 @@ import IMG12webp from '../../assets/ai-image-min.webp';
 import IMG13webp from '../../assets/netflix-clone-min.webp';
 import IMG14webp from '../../assets/ai-summarizer-min.webp';
 import IMG15webp from '../../assets/hangman-min.webp';
+import IMG16webp from '../../assets/url-shortener-min.webp';
 
 const data = [
   {
@@ -184,6 +186,16 @@ const data = [
     demo: 'https://hangman.salimi.my',
     tags: ['ReactJS', 'Tailwind'],
     desc: 'This is a classic word puzzle game Hangman user play by guessing letters one at a time to solve it.'
+  },
+  {
+    id: 16,
+    image: IMG16,
+    imageWebp: IMG16webp,
+    title: 'URL Shortener - Short Link & Analytics',
+    github: 'https://github.com/salimi-my/url-shortener',
+    demo: 'https://url.salimi.my',
+    tags: ['NextJS', 'shadcn/ui', 'Clerk'],
+    desc: 'This is URL shortener app. Users can create custom short link & view analytics of the links.'
   }
 ];
 
