@@ -18,6 +18,7 @@ import IMG13 from '../../assets/netflix-clone-min.png';
 import IMG14 from '../../assets/ai-summarizer-min.png';
 import IMG15 from '../../assets/hangman-min.png';
 import IMG16 from '../../assets/url-shortener-min.png';
+import IMG17 from '../../assets/book-store-min.png';
 
 import IMG1webp from '../../assets/social-login-min.webp';
 import IMG2webp from '../../assets/protected-share-min.webp';
@@ -35,6 +36,7 @@ import IMG13webp from '../../assets/netflix-clone-min.webp';
 import IMG14webp from '../../assets/ai-summarizer-min.webp';
 import IMG15webp from '../../assets/hangman-min.webp';
 import IMG16webp from '../../assets/url-shortener-min.webp';
+import IMG17webp from '../../assets/book-store-min.webp';
 
 const data = [
   {
@@ -196,6 +198,16 @@ const data = [
     demo: 'https://url.salimi.my',
     tags: ['NextJS', 'shadcn/ui', 'Clerk'],
     desc: 'This is URL shortener app. Users can create custom short link & view analytics of the links.'
+  },
+  {
+    id: 17,
+    image: IMG17,
+    imageWebp: IMG17webp,
+    title: 'Book Store - A Book E-Commerce',
+    github: 'https://github.com/salimi-my/book-store',
+    demo: 'https://book-store.salimi.my/',
+    tags: ['Laravel', 'ReactJS', 'toyyibPay'],
+    desc: 'This is a book store e-commerce app with server side carts & toyyibPay payment gateway.'
   }
 ];
 
