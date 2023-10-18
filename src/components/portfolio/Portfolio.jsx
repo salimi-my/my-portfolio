@@ -19,6 +19,7 @@ import IMG14 from '../../assets/ai-summarizer-min.png';
 import IMG15 from '../../assets/hangman-min.png';
 import IMG16 from '../../assets/url-shortener-min.png';
 import IMG17 from '../../assets/book-store-min.png';
+import IMG18 from '../../assets/scribe-min.png';
 
 import IMG1webp from '../../assets/social-login-min.webp';
 import IMG2webp from '../../assets/protected-share-min.webp';
@@ -37,6 +38,7 @@ import IMG14webp from '../../assets/ai-summarizer-min.webp';
 import IMG15webp from '../../assets/hangman-min.webp';
 import IMG16webp from '../../assets/url-shortener-min.webp';
 import IMG17webp from '../../assets/book-store-min.webp';
+import IMG18webp from '../../assets/scribe-min.webp';
 
 const data = [
   {
@@ -208,6 +210,16 @@ const data = [
     demo: 'https://book-store.salimi.my/',
     tags: ['Laravel', 'ReactJS', 'toyyibPay'],
     desc: 'This is a book store e-commerce app with server side carts & toyyibPay payment gateway.'
+  },
+  {
+    id: 18,
+    image: IMG18,
+    imageWebp: IMG18webp,
+    title: 'Scribe - Chat with PDF',
+    github: 'https://github.com/salimi-my/scribe',
+    demo: 'https://scribe.salimi.my/',
+    tags: ['NextJS', 'OpenAI', 'Kinde'],
+    desc: 'Scribe enable you to converse with any PDF instantly. Just upload your file and start chatting.'
   }
 ];
 
