@@ -32,7 +32,7 @@ const data_frontend = [
   },
   {
     skill: 'Vue',
-    level: 'Experienced'
+    level: 'Intermediate'
   },
   {
     skill: 'Vite',
@@ -83,7 +83,7 @@ const data_backend = [
   },
   {
     skill: 'Prisma',
-    level: 'Basic'
+    level: 'Intermediate'
   }
 ];
 
