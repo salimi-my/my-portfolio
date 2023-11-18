@@ -77,7 +77,7 @@ const data = [
     imageWebp: IMG4webp,
     title: 'My Portfolio - A Personal Portfolio Site',
     github: 'https://github.com/salimi-my/my-portfolio',
-    demo: 'https://www.salimi.my',
+    demo: 'https://my-portfolio.salimi.my',
     tags: ['ReactJS', 'EmailJS'],
     desc: 'This is my personal portfolio website, built with React, showing list of my personal projects.'
   },

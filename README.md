@@ -1,4 +1,4 @@
-# [My Portfolio](https://www.salimi.my) &middot; [![Author Salimi](https://img.shields.io/badge/Author-Salimi-%3C%3E)](https://www.linkedin.com/in/mohamad-salimi/)
+# [My Portfolio](https://my-portfolio.salimi.my) &middot; [![Author Salimi](https://img.shields.io/badge/Author-Salimi-%3C%3E)](https://www.linkedin.com/in/mohamad-salimi/)
 
 This is a simple personal portfolio site created using React.
 
@@ -29,9 +29,9 @@ yarn run dev
 
 ## Demo
 
-Hosted on personal VPS. [Click here](https://www.salimi.my) to visit.
+Hosted on personal VPS. [Click here](https://my-portfolio.salimi.my) to visit.
 <br>
-Direct link: `https://www.salimi.my`
+Direct link: `https://my-portfolio.salimi.my`
 
 ## Screenshots
 
