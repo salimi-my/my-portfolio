@@ -1,5 +1,5 @@
 import './header.css';
-import Cta from './Cta';
+import Cta from './CTA';
 import MEpng from '../../assets/web-developer-min.png';
 import MEwebp from '../../assets/web-developer-min.webp';
 import HeaderSocial from './HeaderSocial';

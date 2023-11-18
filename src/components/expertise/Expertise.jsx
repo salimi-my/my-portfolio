@@ -1,4 +1,4 @@
-import './Expertise.css';
+import './expertise.css';
 import { BiCheck } from 'react-icons/bi';
 
 const Expertise = () => {
