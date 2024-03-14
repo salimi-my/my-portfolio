@@ -22,14 +22,11 @@ Open the [.env.local.example](/.env.local.example) and fill in your EmailJS Conf
 ```bash
 npm install
 npm run dev
-# or
-yarn install
-yarn run dev
 ```
 
 ## Demo
 
-Hosted on personal VPS. [Click here](https://my-portfolio.salimi.my) to visit.
+Hosted privately on personal DigitalOcean Droplet. [Click here](https://my-portfolio.salimi.my) to visit.
 <br>
 Direct link: `https://my-portfolio.salimi.my`
 
